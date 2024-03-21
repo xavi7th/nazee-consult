@@ -1,10 +1,10 @@
 <script>
   import { onMount } from 'svelte'
   import { navigating } from '$app/stores'
+  import Header from "./Header.svelte";
+  import Footer from "./Footer.svelte";
 
   import '$vendor/css/main.scss';
-
-  $: console.log(! $navigating)
 
   let isMounted = false;
 
@@ -27,7 +27,8 @@
   <div class="icon"></div>
 </div>
 
+<Header />
+
 <slot />
 
-<a href="/">Home</a>
-<a href="/hello">Hello</a>
+<Footer />

@@ -40,14 +40,6 @@
     var mobileNavContainer = $( ".mobile-nav__container" );
     mobileNavContainer.append( mobileMenuContent );
 
-    //Dropdown Button
-    mobileNavContainer
-      .find( "li.dropdown .dropdown-btn" )
-      .on( "click", function ( e ) {
-        e.preventDefault();
-        $( this ).toggleClass( "open" );
-        $( this ).parent( "a" ).parent( "li" ).children( "ul" ).slideToggle( 500 );
-      } );
     //Menu Toggle Btn
     $( ".mobile-nav-toggler" ).on( "click", function () {
       $( ".side-menu__block" ).addClass( "active" );
@@ -62,27 +54,8 @@
     );
   }
 
-  //Search Popup
-  if ( $( ".search-popup" ).length ) {
-    //Show Popup
-    $( ".search-toggler" ).on( "click", function () {
-      $( ".search-popup" ).addClass( "active" );
-    } );
-    //Hide Popup
-    $( ".search-popup__overlay" ).on( "click", function ( e ) {
-      $( ".search-popup" ).removeClass( "active" );
-      e.preventDefault();
-    } );
-    //Hide Popup
-    $( document ).keydown( function ( e ) {
-      if ( e.keyCode === 27 ) {
-        $( ".search-popup" ).addClass( "active" );
-      }
-    } );
-  }
-
   //Custom Cursor
-  if ( false && $( ".custom-cursor__overlay" ).length ) {
+  if ( $( ".custom-cursor__overlay" ).length ) {
     // / cursor /
     var cursor = $( ".custom-cursor__overlay .cursor" ),
       follower = $( ".custom-cursor__overlay .cursor-follower" );
@@ -92,28 +65,6 @@
 
     var mouseX = 0,
       mouseY = 0;
-
-    TweenMax.to( {}, 0.016, {
-      repeat: -1,
-      onRepeat: function () {
-        posX += ( mouseX - posX ) / 9;
-        posY += ( mouseY - posY ) / 9;
-
-        TweenMax.set( follower, {
-          css: {
-            left: posX - 22,
-            top: posY - 22
-          }
-        } );
-
-        TweenMax.set( cursor, {
-          css: {
-            left: mouseX,
-            top: mouseY
-          }
-        } );
-      }
-    } );
 
     $( document ).on( "mousemove", function ( e ) {
       var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -479,43 +430,6 @@
     );
   }
 
-  //Jquery Knob animation
-  if ( $( ".dial" ).length ) {
-    $( ".dial" ).appear(
-      function () {
-        var elm = $( this );
-        var color = elm.attr( "data-fgColor" );
-        var perc = elm.attr( "value" );
-        var thickness = elm.attr( "data-thickness" );
-
-        elm.knob( {
-          value: 0,
-          min: 0,
-          max: 100,
-          skin: "tron",
-          readOnly: true,
-          thickness: thickness,
-          dynamicDraw: true,
-          displayInput: false
-        } );
-
-        $( {
-          value: 0
-        } ).animate( {
-          value: perc
-        }, {
-          duration: 2000,
-          easing: "swing",
-          progress: function () {
-            elm.val( Math.ceil( this.value ) ).trigger( "change" );
-          }
-        } );
-      }, {
-      accY: 0
-    }
-    );
-  }
-
   //Tabs Box
   if ( $( ".tabs-box" ).length ) {
     $( ".tabs-box .tab-buttons .tab-btn" ).on( "click", function ( e ) {
@@ -694,7 +608,7 @@
   }
 
   /* ==========================================================================
-   When document is Scrollig, do
+   When document is Scrolling, do
    ========================================================================== */
 
   $( window ).on( "scroll", function () {

@@ -89,9 +89,9 @@
 
 :root {
     --thm-font: "Teko", sans-serif;
-    --thm-base: #ffaa17;
-    --thm-base-rgb: 255, 170, 23;
-    --thm-black: #222429;
+    --thm-base: #ff6110;
+    --thm-base-rgb: 255, 97, 16;
+    --thm-black: #080808;
     --thm-text: #686a6f;
 }
 
@@ -395,7 +395,7 @@ figure {
     background-color: rgba(0, 0, 0, 0);
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(../images/icons/preloader.png);
+    background-image: url($lib/images/icons/preloader.png);
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -ms-transition: all 200ms ease;
@@ -585,7 +585,7 @@ img {
     top: 0;
     width: 44px;
     height: 42px;
-    background: url(../images/icons/chat-icon.png) left center no-repeat;
+    background: url($lib/images/icons/chat-icon.png) left center no-repeat;
 }
 
 .main-header .other-links .link-box .sub-text {
@@ -982,7 +982,7 @@ img {
 }
 
 .header-style-four .other-links .link-box .link .icon {
-    background-image: url(../images/icons/chat-icon-dark.png);
+    background-image: url($lib/images/icons/chat-icon-dark.png);
 }
 
 .header-style-four .other-links .link-box .sub-text {
@@ -1297,7 +1297,7 @@ img {
 ***/
 
 img.lazy-image {
-    background: url(../images/icons/image-bg.svg) center center no-repeat;
+    background: url($lib/images/icons/image-bg.svg) center center no-repeat;
 }
 
 img.lazy-image.loaded {
@@ -1658,7 +1658,7 @@ img.lazy-image.loaded {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(../images/main-slider/slide-2-pattern-1.png);
+    background-image: url($lib/images/main-slider/slide-2-pattern-1.png);
     z-index: 10;
 }
 
@@ -1677,7 +1677,7 @@ img.lazy-image.loaded {
     width: 350px;
     max-width: 100%;
     height: 100%;
-    background: url(../images/main-slider/left-curve-line.png) left top no-repeat;
+    background: url($lib/images/main-slider/left-curve-line.png) left top no-repeat;
     z-index: 2;
     opacity: 0;
     -webkit-transform: translateY(-100%);
@@ -1713,7 +1713,7 @@ img.lazy-image.loaded {
     width: 655px;
     max-width: 100%;
     height: 100%;
-    background: url(../images/main-slider/right-curved-bg.png) right bottom no-repeat;
+    background: url($lib/images/main-slider/right-curved-bg.png) right bottom no-repeat;
     z-index: 2;
     opacity: 0;
     -webkit-transform: translateX(700px);
@@ -1749,7 +1749,7 @@ img.lazy-image.loaded {
     width: 164px;
     max-width: 100%;
     height: 100%;
-    background: url(../images/main-slider/right-white-curve.png) right top no-repeat;
+    background: url($lib/images/main-slider/right-white-curve.png) right top no-repeat;
     z-index: 2;
     opacity: 0;
     -webkit-transform: translateX(200px);
@@ -1821,7 +1821,7 @@ img.lazy-image.loaded {
     width: 570px;
     max-width: 100%;
     height: 810px;
-    background: url(../images/main-slider/b-2-shape-1.png) left top no-repeat;
+    background: url($lib/images/main-slider/b-2-shape-1.png) left top no-repeat;
     z-index: 2;
     opacity: 0;
     -webkit-transform: translateY(-100%);
@@ -1857,7 +1857,7 @@ img.lazy-image.loaded {
     width: 333px;
     max-width: 100%;
     height: 366px;
-    background: url(../images/main-slider/b-2-shape-2.png) left bottom no-repeat;
+    background: url($lib/images/main-slider/b-2-shape-2.png) left bottom no-repeat;
     z-index: 2;
     opacity: 0;
     -webkit-transform: translateX(-500px);
@@ -1893,7 +1893,7 @@ img.lazy-image.loaded {
     width: 824px;
     max-width: 100%;
     height: 424px;
-    background: url(../images/main-slider/b-2-shape-3.png) right bottom no-repeat;
+    background: url($lib/images/main-slider/b-2-shape-3.png) right bottom no-repeat;
     z-index: 2;
     opacity: 0;
     -webkit-transform: translateX(900px);
@@ -1929,7 +1929,7 @@ img.lazy-image.loaded {
     width: 218px;
     max-width: 100%;
     height: 571px;
-    background: url(../images/main-slider/b-2-shape-4.png) right top no-repeat;
+    background: url($lib/images/main-slider/b-2-shape-4.png) right top no-repeat;
     z-index: 2;
     opacity: 0;
     -webkit-transform: translateX(200px);
@@ -1965,7 +1965,7 @@ img.lazy-image.loaded {
     width: 306px;
     max-width: 100%;
     height: 904px;
-    background: url(../images/main-slider/b-2-shape-5.png) right top no-repeat;
+    background: url($lib/images/main-slider/b-2-shape-5.png) right top no-repeat;
     z-index: 2;
     opacity: 0;
     -webkit-transform: translateY(-1000px);
@@ -2001,7 +2001,7 @@ img.lazy-image.loaded {
     width: 100%;
     max-width: 100%;
     height: 100%;
-    background: url(../images/main-slider/b-2-shape-6.png) center center no-repeat;
+    background: url($lib/images/main-slider/b-2-shape-6.png) center center no-repeat;
     z-index: 3;
     opacity: 0;
     transform: scale(0);
@@ -2339,7 +2339,7 @@ img.lazy-image.loaded {
     bottom: -50px;
     width: 330px;
     height: 330px;
-    background: url(../images/main-slider/b-3-shape.png) center center no-repeat;
+    background: url($lib/images/main-slider/b-3-shape.png) center center no-repeat;
     z-index: 3;
     opacity: 0;
     -webkit-transform: translateY(100%);
@@ -2736,7 +2736,7 @@ img.lazy-image.loaded {
 .services-section {
     position: relative;
     padding: 120px 0px 90px;
-    background: var(--thm-black) url(../images/background/pattern-1.png) center top repeat;
+    background: var(--thm-black) url($lib/images/background/pattern-1.png) center top repeat;
     color: #ffffff;
 }
 
@@ -3312,7 +3312,7 @@ img.lazy-image.loaded {
 .we-do-section {
     position: relative;
     padding: 240px 0px 90px;
-    background: #ffffff url(../images/background/pattern-2.png) left top repeat;
+    background: #ffffff url($lib/images/background/pattern-2.png) left top repeat;
 }
 
 .we-do-section .sec-title {
@@ -3970,7 +3970,7 @@ img.lazy-image.loaded {
     bottom: -39px;
     width: 50px;
     height: 40px;
-    background: url(../images/icons/curve-down-left.png) left top no-repeat;
+    background: url($lib/images/icons/curve-down-left.png) left top no-repeat;
 }
 
 .trusted-section .features {
@@ -4461,7 +4461,7 @@ img.lazy-image.loaded {
 .agency-section {
     position: relative;
     padding: 120px 0px 80px;
-    background: #ffffff url(../images/background/pattern-2.png) left top repeat;
+    background: #ffffff url($lib/images/background/pattern-2.png) left top repeat;
 }
 
 .agency-section .sec-title {
@@ -4722,7 +4722,7 @@ img.lazy-image.loaded {
 }
 
 .news-section.alt-bg {
-    background: #ffffff url(../images/background/pattern-2.png) left top repeat;
+    background: #ffffff url($lib/images/background/pattern-2.png) left top repeat;
 }
 
 .news-section .more-box {
@@ -5135,7 +5135,7 @@ img.lazy-image.loaded {
     width: 340px;
     max-width: 100%;
     height: 100%;
-    background: url(../images/icons/call-to-shape-1.png) right top no-repeat;
+    background: url($lib/images/icons/call-to-shape-1.png) right top no-repeat;
     z-index: 1;
 }
 
@@ -5145,7 +5145,7 @@ img.lazy-image.loaded {
     top: 0;
     width: 410px;
     height: 54px;
-    background: url(../images/icons/call-to-shape-2.png) right top no-repeat;
+    background: url($lib/images/icons/call-to-shape-2.png) right top no-repeat;
     z-index: 0;
 }
 
@@ -5192,7 +5192,7 @@ img.lazy-image.loaded {
 .main-footer {
     position: relative;
     color: #999b9f;
-    background: var(--thm-black) url(../images/background/footer-bg.png) center top no-repeat;
+    background: var(--thm-black) url($lib/images/background/footer-bg.png) center top no-repeat;
 }
 
 .main-footer .widgets-section {
@@ -5663,7 +5663,7 @@ img.lazy-image.loaded {
 .featured-section {
     position: relative;
     padding: 200px 0px 90px;
-    background: #ffffff url(../images/background/pattern-2.png) left top repeat;
+    background: #ffffff url($lib/images/background/pattern-2.png) left top repeat;
 }
 
 .featured-section .sec-title {}
@@ -5793,7 +5793,7 @@ img.lazy-image.loaded {
 
 .gallery-section-two.alternate {
     position: relative;
-    background: #ffffff url(../images/background/pattern-2.png) right top repeat;
+    background: #ffffff url($lib/images/background/pattern-2.png) right top repeat;
     padding-bottom: 90px;
 }
 
@@ -6031,7 +6031,7 @@ img.lazy-image.loaded {
     top: 0;
     width: 100%;
     height: 100%;
-    background: url(../images/icons/shape-1.png) left top no-repeat;
+    background: url($lib/images/icons/shape-1.png) left top no-repeat;
     z-index: 1;
 }
 
@@ -6224,7 +6224,7 @@ img.lazy-image.loaded {
 .testimonials-section {
     position: relative;
     padding: 120px 0px;
-    background: #ffffff url(../images/background/pattern-2.png) left top repeat;
+    background: #ffffff url($lib/images/background/pattern-2.png) left top repeat;
     overflow: hidden;
 }
 
@@ -6775,14 +6775,14 @@ img.lazy-image.loaded {
     position: relative;
     padding: 120px 0px 90px;
     background-color: #2a2c30;
-    background-image: url(../images/icons/cta-bg-1-1.png);
+    background-image: url($lib/images/icons/cta-bg-1-1.png);
     color: #ffffff;
     z-index: 1;
 }
 
 .call-to-section-two.alternate {
     background: var(--thm-base);
-    background-image: url(../images/background/cta-2-bg-1-1.png);
+    background-image: url($lib/images/background/cta-2-bg-1-1.png);
 }
 
 .call-to-section-two .inner {
@@ -6840,7 +6840,7 @@ img.lazy-image.loaded {
     position: relative;
     padding: 120px 0px 90px;
     background-color: var(--thm-black);
-    background-image: url(../images/background/contact-bg-1-1.png);
+    background-image: url($lib/images/background/contact-bg-1-1.png);
     background-size: cover;
     color: #999b9f;
 }
@@ -7007,7 +7007,7 @@ img.lazy-image.loaded {
     top: 0;
     bottom: 0;
     left: -2000px;
-    background: #ffffff url(../images/background/pattern-2.png) right top repeat;
+    background: #ffffff url($lib/images/background/pattern-2.png) right top repeat;
     border-radius: 0px 7px 7px 0px;
 }
 
@@ -7649,7 +7649,7 @@ img.lazy-image.loaded {
     position: relative;
     padding: 120px 0px 210px;
     background-color: var(--thm-black);
-    background-image: url(../images/background/contact-bg-1-1.png);
+    background-image: url($lib/images/background/contact-bg-1-1.png);
     background-size: cover;
     color: #999b9f;
 }
@@ -7940,7 +7940,7 @@ img.lazy-image.loaded {
     width: 250px;
     max-width: 100%;
     height: 100%;
-    background: url(../images/background/b-shape-1.png) right bottom no-repeat;
+    background: url($lib/images/background/b-shape-1.png) right bottom no-repeat;
     z-index: 1;
 }
 
@@ -7951,7 +7951,7 @@ img.lazy-image.loaded {
     width: 250px;
     max-width: 100%;
     height: 100%;
-    background: url(../images/background/b-shape-2.png) right top no-repeat;
+    background: url($lib/images/background/b-shape-2.png) right top no-repeat;
     z-index: 1;
 }
 
@@ -8049,7 +8049,7 @@ img.lazy-image.loaded {
 .faqs-section {
     position: relative;
     padding: 120px 0px 100px;
-    background: #ffffff url(../images/background/pattern-2.png) left top repeat;
+    background: #ffffff url($lib/images/background/pattern-2.png) left top repeat;
     overflow: hidden;
 }
 
