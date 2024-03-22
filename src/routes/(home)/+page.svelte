@@ -12,14 +12,14 @@
   import TemplatesAndWorksheets from '$lib/components/home/TemplatesAndWorksheets.svelte';
 </script>
 
-<Slideshow />
+<!-- <Slideshow /> -->
 <ServicesSummary />
-<AdvisoryCall />
-<VideoCTA />
-<DiplomaProgramme />
-<GlobalCertifications />
-<AboutUs />
-<TemplatesAndWorksheets />
-<Testimonial />
-<LatestPMPNews />
-<CTA />
+<!-- <AdvisoryCall /> -->
+<!-- <VideoCTA /> -->
+<!-- <DiplomaProgramme /> -->
+<!-- <GlobalCertifications /> -->
+<!-- <AboutUs /> -->
+<!-- <TemplatesAndWorksheets /> -->
+<!-- <Testimonial /> -->
+<!-- <LatestPMPNews /> -->
+<!-- <CTA /> -->

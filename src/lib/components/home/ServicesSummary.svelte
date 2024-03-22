@@ -4,17 +4,15 @@
 
 </script>
 
-<!--Services Section-->
 <section class="services-section">
   <div class="auto-container">
     <div class="row clearfix">
-      <!--Title Block-->
+
       <div class="title-block col-xl-6 col-lg-12 col-md-12 col-sm-12">
         <div class="inner">
           <div class="sec-title">
             <h2>
-              We Shape the Perfect <br />
-              Solutions<span class="dot">.</span>
+              Our Services <span class="dot">.</span>
             </h2>
             <div class="lower-text">We are committed to providing our customers with exceptional service while offering our employees the best training.</div>
           </div>
@@ -25,77 +23,77 @@
         <div class="inner-box">
           <div class="bottom-curve"></div>
           <div class="icon-box">
-            {@html svgIcons.certification() }
+            {@html svgIcons.advisoryCall() }
           </div>
           <h6>
-            <a href="web-development.html">
-              Website <br />
-              Development
+            <a href="#advisory">
+              Advisory <br />
+              Call (30 mins)
             </a>
           </h6>
         </div>
       </div>
-      <!--Service Block-->
+
       <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
         <div class="inner-box">
           <div class="bottom-curve"></div>
-          <div class="icon-box"><span class="flaticon-computer"></span></div>
+          <div class="icon-box">{@html svgIcons.diploma() }</div>
           <h6>
             <a href="graphic-designing.html">
-              graphic <br />
-              designing
+              Diploma in <br />
+              Project Management
             </a>
           </h6>
         </div>
       </div>
-      <!--Service Block-->
+
       <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
         <div class="inner-box">
           <div class="bottom-curve"></div>
-          <div class="icon-box"><span class="flaticon-digital-marketing"></span></div>
+          <div class="icon-box">{@html svgIcons.certification() }</div>
           <h6>
             <a href="digital-marketing.html">
-              digital <br />
-              marketing
+              Global Certification <br />
+              Exam prep(2 weeks)
             </a>
           </h6>
         </div>
       </div>
-      <!--Service Block-->
+
       <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
         <div class="inner-box">
           <div class="bottom-curve"></div>
-          <div class="icon-box"><span class="flaticon-development"></span></div>
+          <div class="icon-box">{@html svgIcons.masterclass() }</div>
           <h6>
             <a href="seo.html">
-              seo & content <br />
-              writing
+              PMP <br />
+              Masterclasses
             </a>
           </h6>
         </div>
       </div>
-      <!--Service Block-->
+
       <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
         <div class="inner-box">
           <div class="bottom-curve"></div>
-          <div class="icon-box"><span class="flaticon-app-development"></span></div>
+          <div class="icon-box">{@html svgIcons.worksheets() }</div>
           <h6>
             <a href="app-development.html">
-              App <br />
-              Development
+              Templates &amp; <br />
+              Worksheets
             </a>
           </h6>
         </div>
       </div>
-      <!--Service Block-->
+
       <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
         <div class="inner-box">
           <div class="bottom-curve"></div>
-          <div class="icon-box"><span class="flaticon-ui"></span></div>
+          <div class="icon-box">{@html svgIcons.comingSoon() }</div>
           <h6>
             <a href="ui-designing.html">
-              Ui/UX <br />
-              designing
+              Coming <br />
+              Soon ...
             </a>
           </h6>
         </div>
