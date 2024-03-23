@@ -10,7 +10,7 @@
   import ServicesSummary from '$lib/components/home/ServicesSummary.svelte';
   import DiplomaProgramme from '$lib/components/home/DiplomaProgramme.svelte';
   import DiplomaScholarship from '$lib/components/home/DiplomaScholarship.svelte';
-  import TemplatesAndWorksheets from '$lib/components/home/TemplatesAndWorksheets.svelte';
+  import GlobalCertAndTemplates from '$lib/components/home/GlobalCertAndTemplates.svelte';
 </script>
 
 <Slideshow />
@@ -20,6 +20,7 @@
 <AdvisoryCall />
 <DiplomaProgramme />
 <DiplomaScholarship />
+<GlobalCertAndTemplates />
 <Testimonial />
 <MasterClass />
 <LatestPMPNews />

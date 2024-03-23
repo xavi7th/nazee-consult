@@ -1,3 +1,8 @@
+<script>
+
+	import svgIcons from '$lib/svgIcons';
+
+</script>
 <section class="process-one">
   <div class="auto-container">
     <div class="row">
@@ -10,36 +15,51 @@
         <div class="process-one__content">
           <div class="sec-title">
             <h2>
-              got an new idea<span class="dot">.</span>
+              Global Certification <br />
+              Exam Prep (2 Weeks)<span class="dot">.</span>
             </h2>
           </div>
           <p class="process-one_summary">
-            Lorem Ipsum is simply dummy text of free available in market the printing and typesetting industry has been the industry's standard dummy text ever. Vivamus semper nulla quis ipsum maximus, vulputate volutpat augue varius.
-            Aliquam rhoncus ullamcorper est.
+            Intensive preparation for global exams like CAPM, PMP, PRINCE2, PMI-ACP.
           </p>
           <ul class="list-unstyled process-one__list ml-0">
-            <li>
-              <i class="flaticon-check"></i>
-              Suspe ndisse suscipit sagittis leo.
-            </li>
-            <li>
-              <i class="flaticon-check"></i>
-              Entum estibulum dignissim posuere.
-            </li>
-            <li>
-              <i class="flaticon-check"></i>
-              If you are going to use a passage.
-            </li>
-            <li>
-              <i class="flaticon-check"></i>
-              Nulla quis ipsum maximus.
-            </li>
+            <li>{@html svgIcons.check()} <span class="pl-10">Exclusive access to senior advisors.</span></li>
+            <li>{@html svgIcons.check()} <span class="pl-10">Guideline/Advisory for application.</span></li>
+            <li>{@html svgIcons.check()} <span class="pl-10">Tailored speed coaching and study materials.</span></li>
+            <li>{@html svgIcons.check()} <span class="pl-10">Mock exam prep.</span></li>
+            <li>{@html svgIcons.check()} <span class="pl-10">Community support.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-lg-6 process-one__image__column">
+        <div class="process-one__image wow fadeInLeft" data-wow-duration="1500ms">
+          <img decoding="async" src="https://linoorwp.pixydrops.com/wp-content/uploads/2021/11/grow-1-1.png" alt="" />
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-6">
+        <div class="process-one__content">
+          <div class="sec-title">
+            <h2>
+              Templates &amp; Worksheets<span class="dot">.</span>
+            </h2>
+          </div>
+          <p class="process-one_summary">
+            Elevate and speed up your workflow by grabbing one of our ready to go templates for your project documentation. Save time, enhance communication and make a long lasting impression. We have the following templates:
+          </p>
+          <ul class="list-unstyled process-one__list ml-0">
+            <li>{@html svgIcons.check()} <span class="pl-10">Project charter template.</span></li>
+            <li>{@html svgIcons.check()} <span class="pl-10">Project schedule template.</span></li>
+            <li>{@html svgIcons.check()} <span class="pl-10">Project change request template.</span></li>
+            <li>{@html svgIcons.check()} <span class="pl-10">Project closure template.</span></li>
           </ul>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 <style lang="scss">
 .process-one {
