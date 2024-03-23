@@ -71,6 +71,19 @@ export default {
       <path d="M5 12l5 5l10 -10" />
     </svg>
   `,
+  chevronDown : ({color = '#ff6110', size = 20, stroke = 1.5} = {}) => `
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-rounded-chevron-down" width="${size}" height="${size}" viewBox="0 0 24 24" stroke-width="${stroke}" stroke="${color}" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M15 11l-3 3l-3 -3" />
+      <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+    </svg>
+  `,
+  playBtn : ({color = '#ff6110', size = 20, stroke = 1.5} = {}) => `
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler icon-tabler-player-play-filled" width="${size}" height="${size}" viewBox="0 0 24 24" stroke-width="${stroke}" stroke="${color}" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" stroke-width="0" fill="currentColor" />
+    </svg>
+  `,
 
   toolTip : ({color = '#ff6110', size = 20, stroke = 1.5} = {}) => `
     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tooltip" width="${size}" height="${size}" viewBox="0 0 24 24" stroke-width="${stroke}" stroke="${color}" fill="none" stroke-linecap="round" stroke-linejoin="round">

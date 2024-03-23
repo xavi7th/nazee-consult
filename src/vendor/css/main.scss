@@ -1,7 +1,6 @@
 @import "./bootstrap.css";
 @import "./owl.css";
 @import "./animate.css";
-// @import "./jquery-ui.css";
 @import "./jquery.fancybox.min.css";
 @import "./hover.css";
 @import "./custom-animate.css";
@@ -9,7 +8,4 @@
 @import "./rtl";
 @import "./responsive.css";
 @import "./theme.css";
-
-html {
-  scroll-behavior: smooth;
-}
+@import "./rs-spacing";

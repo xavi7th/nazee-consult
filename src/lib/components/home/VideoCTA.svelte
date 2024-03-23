@@ -1,8 +1,8 @@
 <script>
   import ctaImage from '$lib/images/resource/featured-image-3.jpg';
+	import svgIcons from '$lib/svgIcons';
 </script>
 
-<!--Live Section-->
 <section class="live-section">
   <div class="auto-container">
     <div class="sec-title centered">
@@ -14,17 +14,17 @@
         <div class="round-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
           <div class="round-inner">
             <div class="vid-link">
-              <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="lightbox-image">
-                <div class="icon"><span class="flaticon-play-button-1"></span><i class="ripple"></i></div>
+              <a href="https://www.youtube.com/watch?v=_mfmrsJtjhA" class="lightbox-image">
+                <div class="icon">{@html svgIcons.playBtn({size: 35}) } <i class="ripple"></i></div>
               </a>
             </div>
             <div class="title">
               <h3>
-                agency that gets <br />
-                excited about
+                an agency that <br />
+                gets your needs
               </h3>
             </div>
-            <div class="more-link"><a href="about.html">Read More</a></div>
+            <div class="more-link"><a href="#about-us">Read More</a></div>
           </div>
         </div>
       </div>
