@@ -11,12 +11,14 @@
   import DiplomaProgramme from '$lib/components/home/DiplomaProgramme.svelte';
   import DiplomaScholarship from '$lib/components/home/DiplomaScholarship.svelte';
   import GlobalCertAndTemplates from '$lib/components/home/GlobalCertAndTemplates.svelte';
+	import AboutProjectManagement from '$lib/components/home/AboutProjectManagement.svelte';
 </script>
 
 <Slideshow />
 <ServicesSummary />
 <VideoCTA />
 <AboutUs />
+<AboutProjectManagement />
 <AdvisoryCall />
 <DiplomaProgramme />
 <DiplomaScholarship />
