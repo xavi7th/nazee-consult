@@ -3,6 +3,7 @@
   import AboutUs from '$lib/components/home/AboutUs.svelte';
   import VideoCTA from '$lib/components/home/VideoCTA.svelte';
   import Slideshow from "$lib/components/home/Slideshow.svelte";
+	import PmFunFacts from '$lib/components/home/PMFunFacts.svelte';
   import Testimonial from '$lib/components/home/Testimonial.svelte';
 	import MasterClass from '$lib/components/home/MasterClass.svelte';
   import AdvisoryCall from '$lib/components/home/AdvisoryCall.svelte';
@@ -19,6 +20,7 @@
 <VideoCTA />
 <AboutUs />
 <AboutProjectManagement />
+<PmFunFacts />
 <AdvisoryCall />
 <DiplomaProgramme />
 <DiplomaScholarship />
