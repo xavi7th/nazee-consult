@@ -15,8 +15,9 @@
 
 <Slideshow />
 <ServicesSummary />
-<AdvisoryCall />
 <VideoCTA />
+<AboutUs />
+<AdvisoryCall />
 <DiplomaProgramme />
 <GlobalCertifications />
 <AboutUs />
