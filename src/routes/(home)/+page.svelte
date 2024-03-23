@@ -25,7 +25,7 @@
 <DiplomaProgramme />
 <DiplomaScholarship />
 <GlobalCertAndTemplates />
-<Testimonial />
 <MasterClass />
-<LatestPMPNews />
+<Testimonial />
+<!-- <LatestPMPNews /> -->
 <CTA />
