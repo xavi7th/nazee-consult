@@ -9,7 +9,7 @@
   <div class="content-placeholder"></div>
 </section>
 
-<section class="trusted-section" id="certification">
+<section class="trusted-section" id="scholarship">
   <div class="auto-container">
     <div class="outer-container">
       <div class="row clearfix">

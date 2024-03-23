@@ -1,4 +1,3 @@
-<!-- Call To Section -->
 <section class="call-to-section">
   <div class="auto-container">
     <div class="inner clearfix">
@@ -9,7 +8,7 @@
         Started!
       </h2>
       <div class="link-box">
-        <a class="theme-btn btn-style-two" href="about.html">
+        <a class="theme-btn btn-style-two" href="https://t.me/+ZmpV3xwHTtQwZDg0" target="_blank" referrerpolicy="no-referrer">
           <i class="btn-curve"></i>
           <span class="btn-title">Contact with us</span>
         </a>

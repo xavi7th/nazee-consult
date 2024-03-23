@@ -3,7 +3,7 @@
 	import svgIcons from '$lib/svgIcons';
 </script>
 
-<section class="live-section">
+<section class="live-section" id="about-us">
   <div class="auto-container">
     <div class="sec-title centered">
       <h2>Experience us live <span class="dot">.</span></h2>
@@ -24,7 +24,7 @@
                 gets your needs
               </h3>
             </div>
-            <div class="more-link"><a href="#about-us">Read More</a></div>
+            <div class="more-link"><a href="#about-pm">Read More</a></div>
           </div>
         </div>
       </div>

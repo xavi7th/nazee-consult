@@ -52,9 +52,9 @@
           <div class="bottom-curve"></div>
           <div class="icon-box">{@html svgIcons.certification() }</div>
           <h6>
-            <a href="#certification">
-              Global Certification <br />
-              Exam prep(2 weeks)
+            <a href="#scholarship">
+              Project Management <br />
+              Scholarship
             </a>
           </h6>
         </div>
@@ -91,9 +91,9 @@
           <div class="bottom-curve"></div>
           <div class="icon-box">{@html svgIcons.certifiedGadgets() }</div>
           <h6>
-            <a href="#/">
-              Coming <br />
-              Soon ...
+            <a href="#certification">
+              Global Certification <br />
+              Exam prep(2 weeks)
             </a>
           </h6>
         </div>

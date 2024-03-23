@@ -21,11 +21,15 @@
         <nav class="main-menu navbar-expand-md navbar-light">
           <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
             <ul class="navigation clearfix">
-              <li><a href="about.html">About Us</a></li>
+              <li><a href="#about-us">About Us</a></li>
 
-              <li><a href="#about-pm">About PM</a></li>
+              <li><a href="#about-pm">Project Management</a></li>
 
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#advisory">Services</a></li>
+
+              <li><a href="#masterclass">PM Masterclass</a></li>
+
+              <li><a href="#testimonials">Testimonials</a></li>
             </ul>
           </div>
         </nav>

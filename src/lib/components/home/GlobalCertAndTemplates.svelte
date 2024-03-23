@@ -3,7 +3,7 @@
 	import svgIcons from '$lib/svgIcons';
 
 </script>
-<section class="process-one">
+<section class="process-one" id="certification">
   <div class="auto-container">
     <div class="row">
       <div class="col-md-12 col-lg-6 process-one__image__column">
@@ -32,7 +32,7 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row" id="templates">
       <div class="col-md-12 col-lg-6 process-one__image__column">
         <div class="process-one__image wow fadeInLeft" data-wow-duration="1500ms">
           <img decoding="async" src="https://linoorwp.pixydrops.com/wp-content/uploads/2021/11/grow-1-1.png" alt="" />

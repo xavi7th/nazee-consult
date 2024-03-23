@@ -11,7 +11,7 @@
     <div class="widgets-section">
       <div class="row clearfix">
         <!--Column-->
-        <div class="column col-xl-3 col-lg-6 col-md-6 col-sm-12">
+        <div class="column col-xl-6 col-lg-12 col-md-12 col-sm-12">
           <div class="footer-widget logo-widget">
             <div class="widget-content">
               <div class="logo">
@@ -25,33 +25,6 @@
                 <li><a href="#/">{@html Icons.instagram({color: 'currentColor'})}</a></li>
                 <li><a href="#/">{@html Icons.linkedIn({color: 'currentColor'})}</a></li>
               </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="column col-xl-3 col-lg-6 col-md-6 col-sm-12">
-          <div class="footer-widget links-widget">
-            <div class="widget-content">
-              <h6>Explore</h6>
-              <div class="row clearfix">
-                <div class="col-md-6 col-sm-12">
-                  <ul>
-                    <li><a href="/hello">About</a></li>
-                    <li><a href="#/">Meet Our Team</a></li>
-                    <li><a href="#/">Our Portfolio</a></li>
-                    <li><a href="#/">Latest News</a></li>
-                    <li><a href="#/">Contact</a></li>
-                  </ul>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                  <ul>
-                    <li><a href="#/">Support</a></li>
-                    <li><a href="#/">Privacy Policy</a></li>
-                    <li><a href="#/">Terms of Use</a></li>
-                    <li><a href="#/">Help</a></li>
-                  </ul>
-                </div>
-              </div>
             </div>
           </div>
         </div>
