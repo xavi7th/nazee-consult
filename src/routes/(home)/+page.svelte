@@ -4,6 +4,7 @@
   import VideoCTA from '$lib/components/home/VideoCTA.svelte';
   import Slideshow from "$lib/components/home/Slideshow.svelte";
   import Testimonial from '$lib/components/home/Testimonial.svelte';
+	import MasterClass from '$lib/components/home/MasterClass.svelte';
   import AdvisoryCall from '$lib/components/home/AdvisoryCall.svelte';
   import LatestPMPNews from '$lib/components/home/LatestPMPNews.svelte';
   import ServicesSummary from '$lib/components/home/ServicesSummary.svelte';
@@ -21,5 +22,6 @@
 <AboutUs />
 <TemplatesAndWorksheets />
 <Testimonial />
+<MasterClass />
 <LatestPMPNews />
 <CTA />
