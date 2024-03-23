@@ -9,7 +9,7 @@
   import LatestPMPNews from '$lib/components/home/LatestPMPNews.svelte';
   import ServicesSummary from '$lib/components/home/ServicesSummary.svelte';
   import DiplomaProgramme from '$lib/components/home/DiplomaProgramme.svelte';
-  import GlobalCertifications from '$lib/components/home/GlobalCertifications.svelte';
+  import DiplomaScholarship from '$lib/components/home/DiplomaScholarship.svelte';
   import TemplatesAndWorksheets from '$lib/components/home/TemplatesAndWorksheets.svelte';
 </script>
 
@@ -19,9 +19,7 @@
 <AboutUs />
 <AdvisoryCall />
 <DiplomaProgramme />
-<GlobalCertifications />
-<AboutUs />
-<TemplatesAndWorksheets />
+<DiplomaScholarship />
 <Testimonial />
 <MasterClass />
 <LatestPMPNews />
