@@ -39,7 +39,7 @@
           <div class="bottom-curve"></div>
           <div class="icon-box">{@html svgIcons.diploma() }</div>
           <h6>
-            <a href="graphic-designing.html">
+            <a href="#diploma">
               Diploma in <br />
               Project Management
             </a>
@@ -52,7 +52,7 @@
           <div class="bottom-curve"></div>
           <div class="icon-box">{@html svgIcons.certification() }</div>
           <h6>
-            <a href="digital-marketing.html">
+            <a href="#certification">
               Global Certification <br />
               Exam prep(2 weeks)
             </a>
@@ -65,7 +65,7 @@
           <div class="bottom-curve"></div>
           <div class="icon-box">{@html svgIcons.masterclass() }</div>
           <h6>
-            <a href="seo.html">
+            <a href="#masterclass">
               PMP <br />
               Masterclasses
             </a>
@@ -78,7 +78,7 @@
           <div class="bottom-curve"></div>
           <div class="icon-box">{@html svgIcons.worksheets() }</div>
           <h6>
-            <a href="app-development.html">
+            <a href="#templates">
               Templates &amp; <br />
               Worksheets
             </a>
@@ -91,7 +91,7 @@
           <div class="bottom-curve"></div>
           <div class="icon-box">{@html svgIcons.comingSoon() }</div>
           <h6>
-            <a href="ui-designing.html">
+            <a href="#/">
               Coming <br />
               Soon ...
             </a>

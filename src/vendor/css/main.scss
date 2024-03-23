@@ -9,3 +9,7 @@
 @import "./rtl";
 @import "./responsive.css";
 @import "./theme.css";
+
+html {
+  scroll-behavior: smooth;
+}

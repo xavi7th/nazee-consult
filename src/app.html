@@ -14,7 +14,7 @@
 
 		%sveltekit.head%
 	</head>
-	<body data-sveltekit-preload-data="hover">
+	<body data-sveltekit-preload-code="viewport">
     <div id="google_translate_element"></div>
 
 		<div class="page-wrapper" style="display: contents">%sveltekit.body%</div>
@@ -22,8 +22,15 @@
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
     <!-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async defer></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" referrerpolicy="no-referrer"></script>
 
     <script type="text/javascript">
+      //Add Modernizr test to detect ios devices
+      Modernizr.addTest('ios', function() {
+        return navigator.userAgent.match(/(iPad|iPhone|iPod)/g) || ((navigator.userAgent.includes('Macintosh') || navigator.userAgent.includes('MacIntel')) && navigator.maxTouchPoints >= 1);
+      });
+
+
       function googleTranslateElementInit() {
         new google.translate.TranslateElement({
           pageLanguage: 'en'

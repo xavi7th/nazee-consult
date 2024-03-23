@@ -36,7 +36,7 @@
               <div class="row clearfix">
                 <div class="col-md-6 col-sm-12">
                   <ul>
-                    <li><a href="#/">About</a></li>
+                    <li><a href="/hello">About</a></li>
                     <li><a href="#/">Meet Our Team</a></li>
                     <li><a href="#/">Our Portfolio</a></li>
                     <li><a href="#/">Latest News</a></li>
