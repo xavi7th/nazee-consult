@@ -89,7 +89,7 @@
       <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
         <div class="inner-box">
           <div class="bottom-curve"></div>
-          <div class="icon-box">{@html svgIcons.comingSoon() }</div>
+          <div class="icon-box">{@html svgIcons.certifiedGadgets() }</div>
           <h6>
             <a href="#/">
               Coming <br />
