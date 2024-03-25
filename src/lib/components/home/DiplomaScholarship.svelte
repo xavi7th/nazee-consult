@@ -71,19 +71,21 @@
     min-height: 300px;
   }
 
-  .trusted-section .featured-block-two {
+  .trusted-section {
 
-    .image .schlorship-img{
-      filter: none;
-    }
+    .featured-block-two {
 
-    .text ul li{
-      padding-left: 0;
+      .image .schlorship-img{
+        filter: none;
+      }
 
-      &:before{
-        content: none;
+      .text ul li{
+        padding-left: 0;
+
+        &:before{
+          content: none;
+        }
       }
     }
   }
-
 </style>

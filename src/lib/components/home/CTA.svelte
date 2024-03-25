@@ -16,9 +16,3 @@
     </div>
   </div>
 </section>
-
-<style>
-  .call-to-section{
-    background: #ffffff url($lib/images/background/pattern-2.png) left top repeat;
-  }
-</style>

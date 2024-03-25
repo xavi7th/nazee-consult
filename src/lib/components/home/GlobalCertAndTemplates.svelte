@@ -8,7 +8,7 @@
     <div class="row">
       <div class="col-md-12 col-lg-6 process-one__image__column">
         <div class="process-one__image wow fadeInLeft" data-wow-duration="1500ms">
-          <img decoding="async" src="https://linoorwp.pixydrops.com/wp-content/uploads/2021/11/grow-1-1.png" alt="" />
+          <enhanced:img decoding="async" src="$lib/images/resource/exam-preparation.png" alt="" />
         </div>
       </div>
       <div class="col-md-12 col-lg-6">
@@ -35,7 +35,7 @@
     <div class="row" id="templates">
       <div class="col-md-12 col-lg-6 process-one__image__column">
         <div class="process-one__image wow fadeInLeft" data-wow-duration="1500ms">
-          <img decoding="async" src="https://linoorwp.pixydrops.com/wp-content/uploads/2021/11/grow-1-1.png" alt="" />
+          <enhanced:img decoding="async" src="$lib/images/resource/project-templates.webp?w=1000&h=952" alt="templates & worksheets" />
         </div>
       </div>
       <div class="col-md-12 col-lg-6">
@@ -65,6 +65,7 @@
 .process-one {
   counter-reset: processCount;
   padding-top: 90px;
+  overflow: hidden;
 
   @media (min-width: 992px) {
     padding-top: 120px;

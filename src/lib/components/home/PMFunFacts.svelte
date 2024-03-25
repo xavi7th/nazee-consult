@@ -52,8 +52,19 @@
 </section>
 
 <style lang="scss">
-  .why-us-section .feature .inner-box:before{
-    content: none;
+  .why-us-section .feature .inner-box{
+
+    &:before{
+      content: none;
+    }
+
+    h6{
+      @media (max-width: 425px) {
+        text-align: left;
+        padding-left: 45px;
+        padding-top: 7px;
+      }
+    }
   }
 
   .pm-fun-facts :global(svg){
@@ -70,5 +81,10 @@
     border-radius: 50%;
     transition: all 500ms ease;
     padding: 10px;
+
+    @media (max-width:425px) {
+      width: 40px;
+      height: 40px;
+    }
   }
 </style>

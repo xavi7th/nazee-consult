@@ -6,7 +6,6 @@
 </script>
 
 <header class="main-header header-style-one">
-
   <div class="header-upper">
     <div class="inner-container clearfix">
       <div class="logo-box">
@@ -48,7 +47,6 @@
       </div>
     </div>
   </div>
-
 </header>
 
 
@@ -77,15 +75,14 @@
         <a href="tel:{PUBLIC_APP_PHONE}">{PUBLIC_APP_PHONE}</a>
       </p>
       <div class="side-menu__social">
+        <a target="_blank" rel="noreferrer" href="{PUBLIC_APP_INSTAGRAM}"><span class="fab">{@html Icons.instagram({color: 'currentColor'})}</span></a>
         <a target="_blank" rel="noreferrer" href="{PUBLIC_APP_FACEBOOK}"><span class="fab">{@html Icons.facebook()}</span></a>
         <a target="_blank" rel="noreferrer" href="{PUBLIC_APP_TWITTER}"><span class="fab">{@html Icons.twitter()}</span></a>
-        <a target="_blank" rel="noreferrer" href="{PUBLIC_APP_INSTAGRAM}"><span class="fab">{@html Icons.instagram({color: 'currentColor'})}</span></a>
         <a target="_blank" rel="noreferrer" href="{PUBLIC_APP_LINKEDIN}"><span class="fab">{@html Icons.linkedIn({color: 'currentColor'})}</span></a>
       </div>
     </div>
   </div>
 </div>
-
 
 <style lang="scss">
   #thm-logo{

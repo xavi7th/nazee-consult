@@ -68,10 +68,10 @@
               <div class="sub-title">welcome to { PUBLIC_APP_NAME }</div>
               <h1>
                 Project <br />
-                Manahement Hub
+                Management Hub
               </h1>
               <div class="link-box">
-                <a class="theme-btn btn-style-one" href="#/about">
+                <a class="theme-btn btn-style-one" href="#about-pm">
                   <i class="btn-curve"></i>
                   <span class="btn-title">Discover More</span>
                 </a>
@@ -91,6 +91,10 @@
 
     h1{
       font-size: 95px;
+
+      @media (max-width: 425px){
+        font-size: 60px;
+      }
     }
   }
 }

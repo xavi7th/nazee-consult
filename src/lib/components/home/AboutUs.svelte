@@ -84,3 +84,16 @@
     </div>
   </div>
 </section>
+
+<style lang="scss">
+  .link-box{
+
+    @media (max-width: 425px) {
+      flex-wrap: wrap;
+
+      .btn-title{
+        padding: 10px 30px 10px;
+      }
+    }
+  }
+</style>

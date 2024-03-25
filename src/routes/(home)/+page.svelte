@@ -13,6 +13,10 @@
   import DiplomaScholarship from '$lib/components/home/DiplomaScholarship.svelte';
   import GlobalCertAndTemplates from '$lib/components/home/GlobalCertAndTemplates.svelte';
 	import AboutProjectManagement from '$lib/components/home/AboutProjectManagement.svelte';
+
+  export let data;
+
+  $: console.log(data);
 </script>
 
 <Slideshow />
@@ -27,5 +31,5 @@
 <GlobalCertAndTemplates />
 <MasterClass />
 <Testimonial />
-<!-- <LatestPMPNews /> -->
+<LatestPMPNews news={data.news}/>
 <CTA />

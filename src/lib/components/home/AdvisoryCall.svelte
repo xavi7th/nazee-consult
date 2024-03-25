@@ -8,8 +8,8 @@
     <div class="row clearfix">
       <div class="image-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
         <div class="inner">
-          <div class="image-block wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"><enhanced:img src="$lib/images/resource/featured-image-1.jpg" alt="" /></div>
-          <div class="image-block wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms"><enhanced:img src="$lib/images/resource/featured-image-2.jpg" alt="" /></div>
+          <div class="image-block wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"><enhanced:img src="$lib/images/resource/advisory-call.webp?h=516&w=470" alt="" /></div>
+          <div class="image-block wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms"><enhanced:img src="$lib/images/resource/advisory-call-office.webp" alt="" /></div>
         </div>
       </div>
 
@@ -53,99 +53,105 @@
 </section>
 
 <style lang="scss">
-  .about-section .text-column .text {
-
-    ul li{
-      padding-left: 0;
-
-      &::before{
-        content: '';
-      }
-
-      :global(svg){
-        margin-right: 10px;
-      }
+  .about-section {
+    .image-column .image-block img{
+      filter: none;
     }
 
-    .since{
-      float: none;
+    .text-column .text {
 
-      &::before{
-        position: absolute;
-        right: 13px;
-        left: auto;
-        top: 65px;
-      }
+      ul li{
+        padding-left: 0;
 
-      &::after{
-        right: 100px;
-        top: 60px;
-        left: auto;
-        height: 110px;
-      }
-
-      .txt{
-        position: absolute;
-        right: 0;
-        top: 70px;
-      }
-
-      @media (max-width: 575px) {
         &::before{
-          top: 305px;
-          top: 31.5cqh;
-          right: 88px;
+          content: '';
+        }
+
+        :global(svg){
+          margin-right: 10px;
+        }
+      }
+
+      .since{
+        float: none;
+
+        &::before{
+          position: absolute;
+          right: 13px;
+          left: auto;
+          top: 65px;
         }
 
         &::after{
-          top: 300px;
-          top: 31cqh;
-          right: 175px;
+          right: 100px;
+          top: 60px;
+          left: auto;
+          height: 110px;
         }
 
         .txt{
-          top: 310px;
-          top: 32cqh;
-          right: 75px;
-        }
-      }
-
-      @media (max-width: 425px) {
-        &::before{
-          top: 345px;
-          top: 34.5cqh;
+          position: absolute;
+          right: 0;
+          top: 70px;
         }
 
-        &::after{
-          top: 340px;
-          top: 34.5cqh;
-        }
-
-        .txt{
-          top: 350px;
-          top: 35cqh;
-        }
-      }
-
-      @media (max-width: 425px) and (-webkit-min-device-pixel-ratio: 2){
-        .ios & {
-
+        @media (max-width: 575px) {
           &::before{
-            right: 13px;
-            top: 360px;
-            top: 51.5cqh;
+            top: 305px;
+            top: 31.5cqh;
+            right: 88px;
           }
 
           &::after{
-            right: 100px;
-            top: 365px;
-            top: 51.5cqh;
+            top: 300px;
+            top: 31cqh;
+            right: 175px;
           }
 
           .txt{
-            right: 0;
-            top: 375px;
-            top: 52cqh;
+            top: 310px;
+            top: 32cqh;
+            right: 75px;
+          }
+        }
+
+        @media (max-width: 425px) {
+          &::before{
+            top: 345px;
+            top: 34.5cqh;
+          }
+
+          &::after{
+            top: 340px;
+            top: 34.5cqh;
+          }
+
+          .txt{
+            top: 350px;
+            top: 35cqh;
+          }
+        }
+
+        @media (max-width: 425px) and (-webkit-min-device-pixel-ratio: 2){
+          .ios & {
+
+            &::before{
+              right: 13px;
+              top: 360px;
+              top: 51.5cqh;
+            }
+
+            &::after{
+              right: 100px;
+              top: 365px;
+              top: 51.5cqh;
+            }
+
+            .txt{
+              right: 0;
+              top: 375px;
+              top: 52cqh;
+            }
           }
         }
       }
