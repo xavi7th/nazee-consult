@@ -6,7 +6,7 @@ export async function load() {
   let news = {articles: []};
 
   try {
-    const res = await fetch(`https://newsapi.org/v2/everything?q=project%20manager&language=en&sortBy=publishedAt&pageSize=3&searchIn=title&excludeDomains=nlppeople.com&page=${Math.floor(Math.random() * 6) + 1}&apiKey=${NEWS_API_KEY}`)
+    const res = await fetch(`https://newsapi.org/v2/everything?q=project%20manager&language=en&sortBy=publishedAt&pageSize=50&searchIn=title&excludeDomains=nlppeople.com&page=1&apiKey=${NEWS_API_KEY}`)
     news = await res.json();
   } catch (e) {
     log(e);
@@ -25,3 +25,5 @@ export async function load() {
   })
  }
 }
+
+export const prerender = true;

@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-node';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -11,7 +11,11 @@ const config = {
 
     alias: {
       '$vendor': '/src/vendor',
-    }
+    },
+
+    prerender: {
+      handleMissingId: 'ignore',
+		}
 	},
 
   // Consult https://kit.svelte.dev/docs/integrations#preprocessors
