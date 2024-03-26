@@ -1,29 +1,32 @@
-# create-svelte
+# Nazee Consult Website
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Overview
+Nazee Consult is a project management firm specializing in project management services, providing project management trainings, and also offering project management professional exam guides. This repository contains the source code for the official website of Nazee Consult.
 
-## Creating a project
+## Features
+- **Project Management:** The website showcases Nazee Consult's expertise in project management, highlighting their services.
+- **SvelteKit:** Built using SvelteKit, a framework for building fast web applications with Svelte, offering a highly efficient and reactive development experience.
+- **Node Adapter:** The project utilizes the Node adapter for SvelteKit, enabling server-side rendering and optimized performance.
+- **Responsive Design:** The website is designed to be responsive, ensuring optimal viewing and interaction across a wide range of devices and screen sizes.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Snapshots
+- ![Nazee Consult Website Snapshot 1](snapshots/snapshot-1.png)
+- ![Nazee Consult Website Snapshot 2](snapshots/snapshot-2.png)
+- ![Nazee Consult Website Snapshot 3](snapshots/snapshot-3.png)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Technologies Used
+- SvelteKit
+- Node.js
+- HTML
+- CSS
+- JavaScript
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Getting Started
+To get started with running the project locally, follow these steps:
+1. Clone this repository to your local machine.
+2. Install dependencies using `npm install`  (or `pnpm install` or `yarn` or `bun`).
+3. Run the development server using `npm run dev` (or start the server and open the app in a new browser tab using `npm run dev -- --open`).
+4. Open your browser and navigate to `http://localhost:5173` to view the website.
 
 ## Building
 
@@ -32,7 +35,9 @@ To create a production version of your app:
 ```bash
 npm run build
 ```
-
 You can preview the production build with `npm run preview`.
+## Contributing
+Contributions are welcome! If you'd like to contribute to the project, please fork the repository, make your changes, and submit a pull request. Make sure to follow the project's coding standards and guidelines.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Contact
+For any inquiries or feedback, feel free to contact us at [hello@mindsandmachinesng.com](mailto:hello@mindsandmachinesng.com) or [+234 803 441 1661](tel:+2348034411661).
