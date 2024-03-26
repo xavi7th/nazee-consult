@@ -39,5 +39,8 @@ You can preview the production build with `npm run preview`.
 ## Contributing
 Contributions are welcome! If you'd like to contribute to the project, please fork the repository, make your changes, and submit a pull request. Make sure to follow the project's coding standards and guidelines.
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Contact
 For any inquiries or feedback, feel free to contact us at [hello@mindsandmachinesng.com](mailto:hello@mindsandmachinesng.com) or [+234 803 441 1661](tel:+2348034411661).
