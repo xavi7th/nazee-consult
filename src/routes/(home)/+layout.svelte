@@ -9,9 +9,6 @@
   let isMounted = false;
 
   onMount(async () => {
-    // Import dynamically because vendor files have side effects that are referencing the window object thus messing up with SSR
-    await import('$vendor/js/app.js');
-
     isMounted = true;
   })
 </script>

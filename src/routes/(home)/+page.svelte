@@ -15,8 +15,6 @@
 	import AboutProjectManagement from '$lib/components/home/AboutProjectManagement.svelte';
 
   export let data;
-
-  $: console.log(data);
 </script>
 
 <Slideshow />

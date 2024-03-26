@@ -14,7 +14,7 @@
           <div class="icon"><span>“</span></div>
           <div class="info">
             <div class="image">
-              <a href="#/"><enhanced:img src="$lib/images/clients/business-couching-consulting-template-reviewer-1.jpg" alt="DANIELLE JOHNSON IMAGE" /></a>
+              <a href="#/"><enhanced:img src="$lib/images/clients/business-couching-consulting-template-reviewer-1.jpg" alt="DANIELLE JOHNSON" /></a>
             </div>
             <div class="name">DANIELLE JOHNSON</div>
           </div>
@@ -26,7 +26,7 @@
           <div class="icon"><span>“</span></div>
           <div class="info">
             <div class="image">
-              <a href="#/"><enhanced:img src="$lib/images/clients/business-couching-consulting-template-reviewer-4.jpg" alt="TEMIDAYO SMITH IMAGE" /></a>
+              <a href="#/"><enhanced:img src="$lib/images/clients/business-couching-consulting-template-reviewer-4.jpg" alt="TEMIDAYO SMITH" /></a>
             </div>
             <div class="name">TEMIDAYO SMITH</div>
           </div>
@@ -38,7 +38,7 @@
           <div class="icon"><span>“</span></div>
           <div class="info">
             <div class="image">
-              <a href="#/"><enhanced:img src="$lib/images/clients/business-couching-consulting-template-reviewer-2.jpg" alt="LAWAL BUSHRA IMAGE" /></a>
+              <a href="#/"><enhanced:img src="$lib/images/clients/business-couching-consulting-template-reviewer-2.jpg" alt="LAWAL BUSHRA" /></a>
             </div>
             <div class="name">LAWAL BUSHRA</div>
           </div>
@@ -50,7 +50,7 @@
           <div class="icon"><span>“</span></div>
           <div class="info">
             <div class="image">
-              <a href="#/"><enhanced:img src="$lib/images/clients/business-couching-consulting-template-reviewer-3.jpg" alt="GLORIA THOMPSON IMAGE" /></a>
+              <a href="#/"><enhanced:img src="$lib/images/clients/business-couching-consulting-template-reviewer-3.jpg" alt="GLORIA THOMPSON" /></a>
             </div>
             <div class="name">GLORIA THOMPSON</div>
           </div>

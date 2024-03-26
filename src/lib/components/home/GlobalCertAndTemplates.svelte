@@ -205,14 +205,6 @@
     font-weight: 300;
     font-family: var(--thm-font);
     letter-spacing: 0.1em;
-
-    & > i {
-      position: absolute;
-      top: 8px;
-      left: 0;
-      color: var(--thm-base);
-      font-size: 20px;
-    }
   }
 }
 </style>
