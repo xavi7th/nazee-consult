@@ -13,7 +13,7 @@
               <div class="logo">
                 <a href="/"><enhanced:img id="fLogo" src="$lib/images/nazee-consult-logo-large.png" alt="{PUBLIC_APP_NAME} logo" /></a>
               </div>
-              <div class="text">{PUBLIC_APP_DESCRIPTION}.</div>
+              <div class="text">{PUBLIC_APP_DESCRIPTION}</div>
               <ul class="social-links clearfix">
                 <li><a href="{ PUBLIC_APP_INSTAGRAM }" target="_blank" rel="noreferrer" referrerpolicy="no-referrer">{@html Icons.instagram({color: 'currentColor'})}</a></li>
                 <li><a href="{ PUBLIC_APP_FACEBOOK }" target="_blank" rel="noreferrer" referrerpolicy="no-referrer">{@html Icons.facebook()}</a></li>
