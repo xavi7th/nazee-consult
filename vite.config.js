@@ -11,7 +11,6 @@ export default defineConfig( {
           files: [
             './src/vendor/js/jquery.js',
             './src/vendor/js/bootstrap.min.js',
-            './src/vendor/js/jquery.fancybox.js',
             './src/vendor/js/owl.js',
             './src/vendor/js/appear.js',
             './src/vendor/js/wow.js',

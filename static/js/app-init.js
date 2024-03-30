@@ -515,17 +515,6 @@
     $( ".date-picker" ).datepicker();
   }
 
-  //LightBox / Fancybox
-  if ( $( ".lightbox-image" ).length ) {
-    $( ".lightbox-image" ).fancybox( {
-      openEffect: "fade",
-      closeEffect: "fade",
-      helpers: {
-        media: {}
-      }
-    } );
-  }
-
   // Scroll to a Specific Div
   if ( $( ".scroll-to-target" ).length ) {
     $( ".scroll-to-target" ).on( "click", function () {
