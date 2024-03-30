@@ -14,7 +14,7 @@
             <h2>
               Our Services <span class="dot">.</span>
             </h2>
-            <div class="lower-text">We are committed to providing our customers with exceptional service while offering our employees the best training.</div>
+            <div class="lower-text">We are committed to providing our students with exceptional service while offering our employees the best training.</div>
           </div>
         </div>
       </div>

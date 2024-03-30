@@ -92,8 +92,8 @@
     h1{
       font-size: 95px;
 
-      @media (max-width: 425px){
-        font-size: 60px;
+      @media (max-width: 430px){
+        font-size: 48px;
       }
     }
   }

@@ -1,8 +1,7 @@
 <script>
-
 	import svgIcons from '$lib/svgIcons';
-
 </script>
+
 <section class="process-one" id="certification">
   <div class="auto-container">
     <div class="row">
@@ -32,7 +31,7 @@
         </div>
       </div>
     </div>
-    <div class="row" id="templates">
+    <div class="row mb-10" id="templates">
       <div class="col-md-12 col-lg-6 process-one__image__column">
         <div class="process-one__image wow fadeInLeft" data-wow-duration="1500ms">
           <enhanced:img decoding="async" src="$lib/images/resource/project-templates.webp?w=1000&h=952" alt="templates & worksheets" />
@@ -200,11 +199,8 @@
   li {
     position: relative;
     padding-left: 30px;
-    font-size: 20px;
     color: var(--thm-text);
-    font-weight: 300;
-    font-family: var(--thm-font);
-    letter-spacing: 0.1em;
+    letter-spacing: 0;
   }
 }
 </style>

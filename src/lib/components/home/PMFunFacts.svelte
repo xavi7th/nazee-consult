@@ -59,7 +59,7 @@
     }
 
     h6{
-      @media (max-width: 425px) {
+      @media (max-width: 435px) {
         text-align: left;
         padding-left: 45px;
         padding-top: 7px;
@@ -82,7 +82,7 @@
     transition: all 500ms ease;
     padding: 10px;
 
-    @media (max-width:425px) {
+    @media (max-width:435px) {
       width: 40px;
       height: 40px;
     }

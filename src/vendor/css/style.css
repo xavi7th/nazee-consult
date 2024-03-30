@@ -59,7 +59,7 @@
 --------------------------------------------------------------*/
 
 /*
-	font-family: 'Teko', sans-serif;
+	font-family: 'Rubik', sans-serif;
 */
 
 /***
@@ -88,8 +88,8 @@
  ***/
 
 :root {
-    --thm-font: "Teko", sans-serif;
-    --thm-b-font: "Rubik", sans-serif;
+    --thm-font: "Rubik", sans-serif;
+    --thm-b-font: "Teko", sans-serif;
     --thm-base: #ff6110;
     --thm-base-rgb: 255, 97, 16;
     --thm-black: #080808;
@@ -138,7 +138,7 @@ h6 {
     margin: 0px 0px 20px;
     background: none;
     line-height: 1.25em;
-    font-family: var(--thm-font);
+    font-family: var(--thm-b-font);
     color: var(--thm-black);
 }
 

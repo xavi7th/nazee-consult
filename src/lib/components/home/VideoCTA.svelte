@@ -1,6 +1,23 @@
 <script>
   import ctaImage from '$lib/images/resource/featured-image-3.jpg';
 	import svgIcons from '$lib/svgIcons';
+
+  import { Fancybox } from "@fancyapps/ui";
+  import "@fancyapps/ui/dist/fancybox/fancybox.css";
+	import { onDestroy } from 'svelte';
+
+  let showFancyBox = () => {
+    Fancybox.show([
+      {
+        src: "https://www.youtube.com/watch?v=_mfmrsJtjhA",
+        // videoAutoplay: false
+      }
+    ]);
+  }
+
+  onDestroy(() => {
+    Fancybox.destroy();
+  })
 </script>
 
 <section class="live-section" id="about-us">
@@ -14,20 +31,24 @@
         <div class="round-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
           <div class="round-inner">
             <div class="vid-link">
-              <a href="https://www.youtube.com/watch?v=_mfmrsJtjhA" class="lightbox-image">
+              <a href="#/" class="lightbox-image" on:click|preventDefault|stopPropagation|capture={showFancyBox}>
                 <div class="icon">{@html svgIcons.playBtn({size: 35}) } <i class="ripple"></i></div>
               </a>
             </div>
             <div class="title">
               <h3>
-                an agency that <br />
-                gets your needs
+                a project management <br /> school that understands <br /> your needs
               </h3>
             </div>
-            <div class="more-link"><a href="#about-pm">Read More</a></div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<style>
+  .title h3{
+    font-size: 40px;
+  }
+</style>

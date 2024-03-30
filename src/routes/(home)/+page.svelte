@@ -35,7 +35,7 @@
 }
 </script>
 
-<Slideshow />
+<!-- <Slideshow /> -->
 <ServicesSummary />
 <VideoCTA />
 <AboutUs />

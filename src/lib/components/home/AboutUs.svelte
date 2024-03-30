@@ -3,19 +3,19 @@
   import bkgImage from '$lib/images/background/image-2.jpg';
 </script>
 
-<section class="agency-section pt-200">
+<section class="company-section pt-200 pb-100">
   <div class="auto-container">
     <div class="row clearfix">
       <div class="left-col col-xl-6 col-lg-12 col-md-12 col-sm-12">
         <div class="inner">
-          <div class="sec-title">
+          <div class="sec-title mb-20">
             <h2>
               We are the  <br />
-              Best PM agency <span class="dot">.</span>
+              Best PM company <span class="dot">.</span>
             </h2>
           </div>
 
-          <div class="text">At { PUBLIC_APP_NAME }, we are fervent believers that project managers are not just professionals; they are the architects of transformation, the catalysts for progress, and the navigators of change in today’s dynamic world.</div>
+          <div class="text pb-50">At { PUBLIC_APP_NAME }, we are fervent believers that project managers are not just professionals; they are the architects of transformation, the catalysts for progress, and the navigators of change in today’s dynamic world.</div>
 
         </div>
       </div>
@@ -29,11 +29,15 @@
               <li data-tab="#tab-mission" class="tab-btn"><span>Our Mission</span></li>
             </ul>
 
-            <div class="tabs-content">
+            <div class="tabs-content pb-50">
               <div class="tab active-tab" id="tab-vision">
                 <div class="content">
                   <div class="text">
-                    Our journey began with a vision to empower and elevate project managers, recognizing them as the unsung heroes behind every successful endeavor. We understand the pivotal role they play in shaping the landscape of industries, businesses, and communities worldwide.
+                    Innovation <br />
+                    Excellence <br />
+                    Global community <br />
+                    Continuous development
+
                   </div>
                 </div>
               </div>
@@ -41,7 +45,7 @@
               <div class="tab" id="tab-drive">
                 <div class="content">
                   <div class="text">
-                    At { PUBLIC_APP_NAME }, we stand committed to providing unparalleled resources, cutting-edge tools, and a transformative learning environment tailored explicitly for project managers. Our mission is to equip these world changers with the knowledge, skills, and support they need to excel and lead impactful initiatives that shape the future.
+                    At the forefront of project management education, our vision is to ignite passion, foster creativity, and cultivate a culture of continuous improvement, where every project manager has the confidence and capability to navigate complexities and achieve
                   </div>
                 </div>
               </div>
@@ -49,7 +53,7 @@
               <div class="tab" id="tab-mission">
                 <div class="content">
                   <div class="text">
-                    We are driven by the conviction that project managers possess a unique set of skills – a blend of leadership, strategic thinking, problem-solving, and adaptability – that goes beyond managing timelines and budgets. They are the driving force behind innovation, the orchestrators of collaboration, and the champions of efficiency and effectiveness.
+                    Our mission is to provide comprehensive, accessible, and practical education and support to aspiring and existing project managers worldwide, equipping them with the skills, knowledge, and confidence necessary to succeed in their roles and drive successful project outcomes in any industry or context.
                   </div>
                 </div>
               </div>
@@ -61,7 +65,7 @@
       <div class="text-column col-12 text-center">
         <div class="inner">
           <div class="link-box d-flex justify-content-around">
-            <a class="theme-btn btn-style-one" href="https://forms.gle/XNveBeKrViWc6x4i9" target="_blank" referrerpolicy="no-referrer">
+            <a class="theme-btn btn-style-one" href="wa.me/447311035016" target="_blank" referrerpolicy="no-referrer">
               <i class="btn-curve"></i> <span class="btn-title">Ask a Question</span>
             </a>
 

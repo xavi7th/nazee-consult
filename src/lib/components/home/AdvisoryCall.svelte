@@ -33,18 +33,23 @@
               <li>{@html svgIcons.check() } Interview prep/C.V assessment.</li>
               <li>{@html svgIcons.check() } Project assistance (guidelines or help to create a budget, plan, risk log, executive summary).</li>
             </ul>
-            <div class="since">
-              <span class="txt">
-                $25 / <br />
-                30 mins
-              </span>
-            </div>
           </div>
-          <div class="link-box">
-            <a class="theme-btn btn-style-one" href="tel:{PUBLIC_APP_PHONE}">
+          <div class="link-box d-flex justify-content-between justify-content-sm-around">
+            <a class="theme-btn btn-style-one" href="https://paystack.com/pay/oneononecall" target="_blank" rel="noreferrer">
               <i class="btn-curve"></i>
               <span class="btn-title">Book a Call Now</span>
             </a>
+
+            <div class="text-column">
+              <div class="text">
+                <div class="since">
+                  <span class="txt">
+                    $25 / <br />
+                    30 mins
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -74,17 +79,18 @@
 
       .since{
         float: none;
+        margin-top: 0 !important;
 
         &::before{
           position: absolute;
           right: 13px;
           left: auto;
-          top: 65px;
+          top: -26px;
         }
 
         &::after{
           right: 100px;
-          top: 60px;
+          top: -32px;
           left: auto;
           height: 110px;
         }
@@ -92,65 +98,61 @@
         .txt{
           position: absolute;
           right: 0;
-          top: 70px;
+          top: -22px;
+          font-family: var(--thm-b-font);
+
         }
 
         @media (max-width: 575px) {
           &::before{
-            top: 305px;
-            top: 31.5cqh;
-            right: 88px;
+            top: -25px;
+            right: 13px;
           }
 
           &::after{
-            top: 300px;
-            top: 31cqh;
-            right: 175px;
+            top: -25px;
+            right: 100px;
           }
 
           .txt{
-            top: 310px;
-            top: 32cqh;
-            right: 75px;
+            top: -20px;
+            right: 0;
           }
         }
 
-        @media (max-width: 425px) {
+        @media (max-width: 435px) {
           &::before{
-            top: 345px;
-            top: 34.5cqh;
+            top: -15px;
+            right: 15px;
           }
 
           &::after{
-            top: 340px;
-            top: 34.5cqh;
+            top: -25px;
+            right: 100px;
           }
 
           .txt{
-            top: 350px;
-            top: 35cqh;
+            top: -15px;
+            right: 0;
           }
         }
 
-        @media (max-width: 425px) and (-webkit-min-device-pixel-ratio: 2){
+        @media (max-width: 435px) and (-webkit-min-device-pixel-ratio: 2){
           .ios & {
 
             &::before{
               right: 13px;
-              top: 360px;
-              top: 51.5cqh;
+              top: -18px;
             }
 
             &::after{
               right: 100px;
-              top: 365px;
-              top: 51.5cqh;
+              top: -25px;
             }
 
             .txt{
               right: 0;
-              top: 375px;
-              top: 52cqh;
+              top: -15px;
             }
           }
         }

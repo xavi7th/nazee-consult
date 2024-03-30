@@ -8,3 +8,23 @@
 @import "./responsive.css";
 @import "./theme.css";
 @import "./rs-spacing";
+
+.main-menu .navigation, .main-header, .tabs-box .tab-buttons, .theme-btn, .acc-btn, .header-inner, .process-one__image::after{
+  font-family: var(--thm-b-font) !important;
+}
+
+.text, .lower-text, .sub-text, .text p, .text li, .main-footer, .process-one_summary, .process-one__list{
+  line-height: 1.3em !important;
+  font-size: 18px !important;
+  letter-spacing: 0 !important;
+
+  .feature &{
+    font-size: 16px !important;
+  }
+}
+
+.we-do-section, .featured-section, .about-section, .process-one{
+  @media (max-width: 757px) {
+    padding: 60px 0 50px !important;
+  }
+}
