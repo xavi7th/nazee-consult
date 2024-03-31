@@ -28,6 +28,13 @@
             <li>{@html svgIcons.check()} <span class="pl-10">Mock exam prep.</span></li>
             <li>{@html svgIcons.check()} <span class="pl-10">Community support.</span></li>
           </ul>
+
+          <div class="link-box d-flex justify-content-between mt-50">
+            <a class="theme-btn btn-style-one" href="https://paystack.com/pay/43tbewks69" target="_blank" rel="noreferrer">
+              <i class="btn-curve"></i>
+              <span class="btn-title">Book Now</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -53,6 +60,13 @@
             <li>{@html svgIcons.check()} <span class="pl-10">Project change request template.</span></li>
             <li>{@html svgIcons.check()} <span class="pl-10">Project closure template.</span></li>
           </ul>
+
+          <div class="link-box d-flex justify-content-between mt-50">
+            <a class="theme-btn btn-style-one" href="https://paystack.com/pay/u6v4m94rze" target="_blank" rel="noreferrer">
+              <i class="btn-curve"></i>
+              <span class="btn-title">Buy Templates</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>

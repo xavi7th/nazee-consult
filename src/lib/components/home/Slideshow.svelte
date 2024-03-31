@@ -68,12 +68,12 @@
               <div class="sub-title">welcome to { PUBLIC_APP_NAME }</div>
               <h1>
                 Project <br />
-                Management Hub
+                Management Masterclass
               </h1>
               <div class="link-box">
-                <a class="theme-btn btn-style-one" href="#about-pm">
+                <a class="theme-btn btn-style-two" href="https://pmmasterclass.my.canva.site/" target="_blank" referrerpolicy="no-referrer">
                   <i class="btn-curve"></i>
-                  <span class="btn-title">Discover More</span>
+                  <span class="btn-title">Grab a Seat</span>
                 </a>
               </div>
             </div>

@@ -20,7 +20,7 @@
                 <span>We’re Committed To Your Guaranteed Success.</span>
               </div>
             </div>
-            <div class="features">
+            <div class="features d-none d-lg-block">
               <div class="feature">
                 <div class="count"><span>01</span></div>
                 <h5>AFRICANS FROM AGE 18 - 35</h5>
@@ -38,7 +38,7 @@
           <div class="inner">
             <div class="sec-title">
               <h2>
-                Scholarship Program <br />
+                Scholarship Program <br class="d-md-none"/>
                 for diploma in PMP<span class="dot">.</span>
               </h2>
               <div class="lower-text">{PUBLIC_APP_NAME} is partnering with Osazee Igbinovia Foundation to provide a scholarship program for diploma in project management. See the criteria listed below</div>
@@ -47,6 +47,8 @@
               <div class="image"><enhanced:img class="schlorship-img" src="$lib/images/resource/nazee-diploma-scholarship.jpg" alt="diploma-scholarship" /></div>
               <div class="text">
                 <ul>
+                  <li>{@html svgIcons.check()} <span class="pl-5">Africans from age 18 - 35 (ID proof required).</span></li>
+                  <li>{@html svgIcons.check()} <span class="pl-5">50% off the course fee.</span></li>
                   <li>{@html svgIcons.check()} <span class="pl-5">Passionate about Project Management Education.</span></li>
                   <li>{@html svgIcons.check()} <span class="pl-5">WASSCE or higher educational background.</span></li>
                   <li>{@html svgIcons.check()} <span class="pl-5">Informal project experience of at least 3 months.</span></li>
@@ -85,6 +87,26 @@
         &:before{
           content: none;
         }
+      }
+    }
+  }
+
+
+  @media (max-width: 991px) {
+    .facts-section .image-layer{
+        background-attachment: inherit;
+    }
+
+    .trusted-section .featured-block-two{
+      padding-left: 0;
+      padding-top: 0;
+
+      .image{
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        margin: 0 0 30px;
       }
     }
   }

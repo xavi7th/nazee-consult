@@ -92,12 +92,18 @@
 <style lang="scss">
   .link-box{
 
-    @media (max-width: 425px) {
+    @media (max-width: 435px) {
       flex-wrap: wrap;
 
       .btn-title{
         padding: 10px 30px 10px;
       }
+    }
+  }
+
+  @media (max-width: 435px) and (-webkit-min-device-pixel-ratio: 2){
+    .ios .parallax-section .image-layer{
+      background-attachment: initial;
     }
   }
 </style>

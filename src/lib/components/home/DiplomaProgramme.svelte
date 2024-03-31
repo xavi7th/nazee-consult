@@ -11,7 +11,11 @@
         <div class="inner pr-20">
           <div class="featured-block pl-0 clearfix">
             <div class="image w-100"><enhanced:img src="$lib/images/resource/nazee-consult-best-graduating-student.jpg" alt="nazee consult best graduating student" /></div>
-            <div class="text">BEST GRADUATING STUDENT</div>
+            <div class="text p-10">
+              Meet Miss Bushra Lawal
+
+              <span class="d-block pl-100">BEST GRADUATING STUDENT 2023/2024 COHORT</span>
+            </div>
           </div>
         </div>
       </div>

@@ -24,8 +24,8 @@
     var result = new Array(n),
         len = arr.length,
         taken = new Array(len);
-    if (n > len)
-        throw new RangeError("getRandom: more elements taken than available");
+    if (n > len) return []
+        // throw new RangeError("getRandom: more elements taken than available");
     while (n--) {
         var x = Math.floor(Math.random() * len);
         result[n] = arr[x in taken ? taken[x] : x];
@@ -35,7 +35,7 @@
 }
 </script>
 
-<!-- <Slideshow /> -->
+<Slideshow />
 <ServicesSummary />
 <VideoCTA />
 <AboutUs />
@@ -45,7 +45,7 @@
 <DiplomaProgramme />
 <DiplomaScholarship />
 <GlobalCertAndTemplates />
-<MasterClass />
+<!-- <MasterClass /> -->
 <Testimonial />
 <LatestPMPNews news={getRandom(data.news, 3)}/>
 <CTA />
