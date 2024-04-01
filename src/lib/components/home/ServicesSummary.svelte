@@ -35,68 +35,78 @@
       </div>
 
       <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-        <div class="inner-box">
-          <div class="bottom-curve"></div>
-          <div class="icon-box">{@html svgIcons.diploma() }</div>
-          <h6>
-            <a href="#diploma">
-              Diploma in <br />
-              Project Management
-            </a>
-          </h6>
-        </div>
+        <a href="#diploma">
+          <div class="inner-box">
+            <div class="bottom-curve"></div>
+            <div class="icon-box">{@html svgIcons.diploma() }</div>
+            <h6>
+              <span>
+                Diploma in <br />
+                Project Management
+              </span>
+            </h6>
+          </div>
+        </a>
       </div>
 
       <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-        <div class="inner-box">
-          <div class="bottom-curve"></div>
-          <div class="icon-box">{@html svgIcons.certification() }</div>
-          <h6>
-            <a href="#scholarship">
-              Project Management <br />
-              Scholarship
-            </a>
-          </h6>
-        </div>
+        <a href="#scholarship">
+          <div class="inner-box">
+            <div class="bottom-curve"></div>
+            <div class="icon-box">{@html svgIcons.certification() }</div>
+            <h6>
+              <span>
+                Project Management <br />
+                Scholarship
+              </span>
+            </h6>
+          </div>
+        </a>
       </div>
 
       <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-        <div class="inner-box">
-          <div class="bottom-curve"></div>
-          <div class="icon-box">{@html svgIcons.masterclass() }</div>
-          <h6>
-            <a href="#masterclass">
-              PMP <br />
-              Masterclasses
-            </a>
-          </h6>
-        </div>
+        <a href="https://pmmasterclass.my.canva.site/" target="_blank" referrerpolicy="origin" rel="me external">
+          <div class="inner-box">
+            <div class="bottom-curve"></div>
+            <div class="icon-box">{@html svgIcons.masterclass() }</div>
+            <h6>
+              <span>
+                PMP <br />
+                Masterclasses
+              </span>
+            </h6>
+          </div>
+        </a>
       </div>
 
       <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-        <div class="inner-box">
-          <div class="bottom-curve"></div>
-          <div class="icon-box">{@html svgIcons.worksheets() }</div>
-          <h6>
-            <a href="#templates">
-              Templates &amp; <br />
-              Worksheets
-            </a>
-          </h6>
-        </div>
+        <a href="#templates">
+          <div class="inner-box">
+            <div class="bottom-curve"></div>
+            <div class="icon-box">{@html svgIcons.worksheets() }</div>
+            <h6>
+              <span>
+                Templates &amp; <br />
+                Worksheets
+              </span>
+            </h6>
+          </div>
+        </a>
       </div>
 
       <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
-        <div class="inner-box">
-          <div class="bottom-curve"></div>
-          <div class="icon-box">{@html svgIcons.certifiedGadgets() }</div>
-          <h6>
-            <a href="#certification">
-              Global Certification <br />
-              Exam prep(2 weeks)
-            </a>
-          </h6>
-        </div>
+        <a href="#certification">
+          <div class="inner-box">
+            <div class="bottom-curve"></div>
+            <div class="icon-box">{@html svgIcons.certifiedGadgets() }</div>
+            <h6>
+              <span>
+                Global Certification <br />
+                Exam prep(2 weeks)
+              </span>
+            </h6>
+          </div>
+        </a>
       </div>
     </div>
   </div>

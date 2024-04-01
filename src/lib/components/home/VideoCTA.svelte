@@ -15,9 +15,9 @@
     ]);
   }
 
-  onDestroy(() => {
-    Fancybox.destroy();
-  })
+  // onDestroy(() => {
+  //   window.Fancybox.destroy();
+  // })
 </script>
 
 <section class="live-section" id="about-us">

@@ -26,7 +26,7 @@
 
               <li><a href="#advisory">Services</a></li>
 
-              <li><a href="#masterclass">PM Masterclass</a></li>
+              <li><a href="https://pmmasterclass.my.canva.site/" target="_blank" rel="me external" referrerpolicy="origin">PM Masterclass</a></li>
 
               <li><a href="#testimonials">Testimonials</a></li>
             </ul>

@@ -14,7 +14,25 @@ const config = {
     },
 
     prerender: {
-      handleMissingId: 'ignore',
+      //@see https://kit.svelte.dev/docs/configuration#prerender
+      handleMissingId: ({ path, referrers, message, id }) => {
+
+        if (id === '/') return;
+
+        console.log({ path, referrers, message, id });
+
+				throw new Error(message);
+			},
+
+      //@see https://kit.svelte.dev/docs/configuration#prerender
+      handleHttpError: ({ referenceType, path, referrer, message, status }) => {
+
+        if (path === '/wa.me/447311035016') return;
+
+        console.log({ referenceType, path, referrer, message, status, eq: path === '/wa.me/447311035016' });
+
+        throw new Error(message);
+			}
 		}
 	},
 
