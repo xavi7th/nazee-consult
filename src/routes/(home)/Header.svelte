@@ -10,7 +10,9 @@
     <div class="inner-container clearfix">
       <div class="logo-box">
         <div class="logo">
-          <a href="/" title="{PUBLIC_APP_NAME} PMP made easy"><enhanced:img src="$lib/images/nazee-consult-logo-large.png" id="thm-logo" alt="{PUBLIC_APP_NAME} logo" title="{PUBLIC_APP_NAME} PMP made easy" /></a>
+          <a href="/" title="{PUBLIC_APP_NAME} Project Management made easy">
+            <enhanced:img src="$lib/images/nazee-consult-logo-large.png" id="thm-logo" alt="{PUBLIC_APP_NAME} logo" title="{PUBLIC_APP_NAME} Project Management made easy" />
+          </a>
         </div>
       </div>
       <div class="nav-outer clearfix">

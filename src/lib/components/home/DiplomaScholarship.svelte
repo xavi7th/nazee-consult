@@ -39,7 +39,7 @@
             <div class="sec-title">
               <h2>
                 Scholarship Program <br class="d-md-none"/>
-                for diploma in PMP<span class="dot">.</span>
+                for diploma in Project Management<span class="dot">.</span>
               </h2>
               <div class="lower-text">{PUBLIC_APP_NAME} is partnering with Osazee Igbinovia Foundation to provide a scholarship program for diploma in project management. See the criteria listed below</div>
             </div>

@@ -14,7 +14,7 @@
             <div class="text p-10">
               Meet Miss Bushra Lawal
 
-              <span class="d-block pl-100">BEST GRADUATING STUDENT 2023/2024 COHORT</span>
+              <span class="d-block">BEST GRADUATING STUDENT 2023/2024 COHORT</span>
             </div>
           </div>
         </div>
@@ -33,10 +33,12 @@
                 <div class="acc-btn active"><span class="count">1.</span> Module One <span class="chevron">{@html svgIcons.chevronDown()}</span></div>
                 <div class="acc-content current">
                   <div class="content">
-                    <div class="text"> {@html svgIcons.check()} <span class="pl-10">Introduction to Project Management.</span></div>
-                    <div class="text"> {@html svgIcons.check()} <span class="pl-10">Real-life Project Management solution scenarios.</span></div>
-                    <div class="text"> {@html svgIcons.check()} <span class="pl-10">Essential roles of Project managers.</span></div>
-                    <div class="text"> {@html svgIcons.check()} <span class="pl-10">Basic project management tools.</span></div>
+                    <div class="text"> {@html svgIcons.check()} <span class="pl-10">Introduction to Project Management</span></div>
+                    <div class="text"> {@html svgIcons.check()} <span class="pl-10">Real-life Project Management solution scenarios</span></div>
+                    <div class="text"> {@html svgIcons.check()} <span class="pl-10">Essential roles of Project managers</span></div>
+                    <div class="text"> {@html svgIcons.check()} <span class="pl-10">Basic Project Management Tools</span></div>
+                    <div class="text"> {@html svgIcons.check()} <span class="pl-10">Project Management Methodologies (Agile, Waterfall & Hybrid)</span></div>
+                    <div class="text"> {@html svgIcons.check()} <span class="pl-10">Project Management Estimation (Duration, Cost and Resources)</span></div>
                   </div>
                 </div>
               </li>
@@ -45,9 +47,11 @@
                 <div class="acc-btn"><span class="count">2.</span> Module Two <span class="chevron">{@html svgIcons.chevronDown()}</span></div>
                 <div class="acc-content">
                   <div class="content">
-                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Project Management Life-cycle.</span></div>
-                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Building WBS (Work Breakdown Structure).</span></div>
-                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Creating a Project Management Schedule.</span></div>
+                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Project Management Life-cycle</span></div>
+                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Building WBS (Work Breakdown Structure)</span></div>
+                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Creating a Project Management Schedule</span></div>
+                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Project Management Documentation</span></div>
+                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Extensive Agile Project Management</span></div>
                   </div>
                 </div>
               </li>
@@ -56,9 +60,11 @@
                 <div class="acc-btn"><span class="count">3.</span> Module Three <span class="chevron">{@html svgIcons.chevronDown()}</span></div>
                 <div class="acc-content">
                   <div class="content">
-                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Team building and leadership.</span></div>
-                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Risk assessment and monitoring.</span></div>
-                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Communication and stakeholder engagement.</span></div>
+                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Team Building and Leadership</span></div>
+                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Risk Assessment and Monitoring</span></div>
+                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Communication and Stakeholder Engagement</span></div>
+                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Budgeting and Finances in Project Management</span></div>
+                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Stakehokder Management</span></div>
                   </div>
                 </div>
               </li>
@@ -67,14 +73,25 @@
                 <div class="acc-btn"><span class="count">4.</span> Module Four <span class="chevron">{@html svgIcons.chevronDown()}</span></div>
                 <div class="acc-content">
                   <div class="content">
-                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Project closing.</span></div>
-                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Customer satisfaction and Lesson-Learned Register.</span></div>
-                    <div class="text">{@html svgIcons.check()} <span class="pl-10">How to land entry roles in project management and interview prep.</span></div>
-                    <div class="text">{@html svgIcons.check()} <span class="pl-10">CERTIFICATE after live project completion.</span></div>
+                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Project Closing</span></div>
+                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Customer Satisfaction and Lesson-Learned Register</span></div>
+                    <div class="text">{@html svgIcons.check()} <span class="pl-10">How to land entry roles in Project Management and Interview Prep</span></div>
+                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Building a Project Management Portfolio</span></div>
+                    <div class="text">{@html svgIcons.check()} <span class="pl-10">Overview of Global Certifications & Requirements</span></div>
                   </div>
                 </div>
               </li>
             </ul>
+          </div>
+
+          <div class="text-column col-12 text-center mt-50">
+            <div class="inner">
+              <div class="link-box d-flex justify-content-around">
+                <a class="theme-btn btn-style-one" href="https://paystack.com/pay/Diplomainpm" target="_blank" referrerpolicy="no-referrer">
+                  <i class="btn-curve"></i> <span class="btn-title">Sign Up Now</span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

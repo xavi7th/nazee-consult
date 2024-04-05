@@ -27,9 +27,7 @@ const config = {
       //@see https://kit.svelte.dev/docs/configuration#prerender
       handleHttpError: ({ referenceType, path, referrer, message, status }) => {
 
-        if (path === '/wa.me/447311035016') return;
-
-        console.log({ referenceType, path, referrer, message, status, eq: path === '/wa.me/447311035016' });
+        console.log({ referenceType, path, referrer, message, status});
 
         throw new Error(message);
 			}

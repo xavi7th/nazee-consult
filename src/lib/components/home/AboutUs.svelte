@@ -24,13 +24,13 @@
 
           <div class="default-tabs tabs-box">
             <ul class="tab-btns tab-buttons clearfix">
-              <li data-tab="#tab-vision" class="tab-btn active-btn"><span>Our Vision</span></li>
-              <li data-tab="#tab-drive" class="tab-btn"><span>Our Drive</span></li>
+              <li data-tab="#tab-values" class="tab-btn active-btn"><span>Our Values</span></li>
+              <li data-tab="#tab-vision" class="tab-btn"><span>Our Vision</span></li>
               <li data-tab="#tab-mission" class="tab-btn"><span>Our Mission</span></li>
             </ul>
 
             <div class="tabs-content pb-50">
-              <div class="tab active-tab" id="tab-vision">
+              <div class="tab active-tab" id="tab-values">
                 <div class="content">
                   <div class="text">
                     Innovation <br />
@@ -42,7 +42,7 @@
                 </div>
               </div>
 
-              <div class="tab" id="tab-drive">
+              <div class="tab" id="tab-vision">
                 <div class="content">
                   <div class="text">
                     At the forefront of project management education, our vision is to ignite passion, foster creativity, and cultivate a culture of continuous improvement, where every project manager has the confidence and capability to navigate complexities and achieve
@@ -65,7 +65,7 @@
       <div class="text-column col-12 text-center">
         <div class="inner">
           <div class="link-box d-flex justify-content-around">
-            <a class="theme-btn btn-style-one" href="wa.me/447311035016" target="_blank" referrerpolicy="no-referrer">
+            <a class="theme-btn btn-style-one" href="https://wa.me/447311035016" target="_blank" referrerpolicy="no-referrer">
               <i class="btn-curve"></i> <span class="btn-title">Ask a Question</span>
             </a>
 

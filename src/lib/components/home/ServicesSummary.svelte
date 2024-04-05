@@ -71,7 +71,7 @@
             <div class="icon-box">{@html svgIcons.masterclass() }</div>
             <h6>
               <span>
-                PMP <br />
+                Project Management <br />
                 Masterclasses
               </span>
             </h6>
