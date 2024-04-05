@@ -2,6 +2,7 @@
   import ctaImage from '$lib/images/resource/featured-image-3.jpg';
 	import svgIcons from '$lib/svgIcons';
 
+  // import Fancybox from "@fancyapps/ui/dist/fancybox/fancybox.umd";
   import { Fancybox } from "@fancyapps/ui";
   import "@fancyapps/ui/dist/fancybox/fancybox.css";
 	import { onDestroy } from 'svelte';
