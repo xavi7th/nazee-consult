@@ -1,5 +1,6 @@
 <script>
   import CTA from '$lib/components/home/CTA.svelte';
+  import OurTeam from '$lib/components/home/OurTeam.svelte';
   import AboutUs from '$lib/components/home/AboutUs.svelte';
   import VideoCTA from '$lib/components/home/VideoCTA.svelte';
   import Slideshow from "$lib/components/home/Slideshow.svelte";
@@ -39,6 +40,7 @@
 <ServicesSummary />
 <VideoCTA />
 <AboutUs />
+<OurTeam team={data.team}/>
 <AboutProjectManagement />
 <PmFunFacts />
 <AdvisoryCall />
