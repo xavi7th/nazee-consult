@@ -396,29 +396,21 @@ figure {
     background-color: rgba(0, 0, 0, 0);
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url($lib/images/icons/preloader.png);
-    -webkit-transition: all 200ms ease;
-    -moz-transition: all 200ms ease;
-    -ms-transition: all 200ms ease;
-    -o-transition: all 200ms ease;
+    background-size: 5%;
+    background-image: url($lib/images/icons/nazee-consult-preloader.png);
     transition: all 200ms ease;
-    -webkit-animation-name: rotateMe;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-name: rotateMe;
-    -moz-animation-duration: 2s;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-timing-function: linear;
-    -ms-animation-name: rotateMe;
-    -ms-animation-duration: 2s;
-    -ms-animation-iteration-count: infinite;
-    -ms-animation-timing-function: linear;
     animation-name: rotateMe;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-}
+
+  }
+
+  @media (max-width:435px) {
+    .preloader .icon{
+      background-size: 10%;
+    }
+  }
 
 .page-loaded .preloader .icon {
     opacity: 0;

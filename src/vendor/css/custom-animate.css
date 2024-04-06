@@ -1,45 +1,45 @@
 @keyframes rotateMe {
     from {
-        transform: rotate(0deg) scale(1);
+        transform: rotate(360deg) scale(1);
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(0deg);
     }
 }
 
 @-webkit-keyframes rotateMe {
     from {
-        transform: rotate(0deg) scale(1);
+        transform: rotate(360deg) scale(1);
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(0deg);
     }
 }
 
 @-moz-keyframes rotateMe {
     from {
-        transform: rotate(0deg) scale(1);
+        transform: rotate(360deg) scale(1);
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(0deg);
     }
 }
 
 @-o-keyframes rotateMe {
     from {
-        transform: rotate(0deg) scale(1);
+        transform: rotate(360deg) scale(1);
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(0deg);
     }
 }
 
 @keyframes rotateMe {
     from {
-        transform: rotate(0deg) scale(1);
+        transform: rotate(360deg) scale(1);
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(0deg);
     }
 }
 

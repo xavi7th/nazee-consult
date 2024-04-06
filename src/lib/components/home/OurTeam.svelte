@@ -2,10 +2,10 @@
   export let team = [];
 	import Modal from '$lib/components/Modal.svelte';
 
-  import img0 from '$lib/images/team/igbinovia-omonua-naomi-vice-chancellor-nazee.jpg?enhanced&fit=cover&h=720&position=top&w=640;400;200';
-  import img1 from '$lib/images/team/miracle-ndikom-head-of-operations-nazee.jpg?enhanced&fit=cover&h=720&position=top&w=640;400;200';
-  import img2 from '$lib/images/team/jennifer-zoe-ebade-associate-project-manager-nazee.jpg?enhanced&fit=cover&h=720&position=top&w=640;400;200';
-  import img3 from '$lib/images/team/osazee-victor-head-of-institute-nazee.png?enhanced&fit=cover&h=720&position=top&w=640;400;200';
+  import img0 from '$lib/images/team/osazee-victor-head-of-institute-nazee.png?enhanced&fit=cover&h=720&position=top&w=640;400;200';
+  import img1 from '$lib/images/team/igbinovia-omonua-naomi-vice-chancellor-nazee.jpg?enhanced&fit=cover&h=720&position=top&w=640;400;200';
+  import img2 from '$lib/images/team/miracle-ndikom-head-of-operations-nazee.jpg?enhanced&fit=cover&h=720&position=top&w=640;400;200';
+  import img3 from '$lib/images/team/jennifer-zoe-ebade-associate-project-manager-nazee.jpg?enhanced&fit=cover&h=720&position=top&w=640;400;200';
 
   let img = [ img0, img1, img2, img3];
   let showModal = false, currentDetail = undefined;
@@ -28,12 +28,13 @@
               <div class="team-card-three__content">
                 <h5 class="team-card-three__name">{detail.name}</h5>
                 <div class="team-card-three__designation">{detail.position}</div>
+                <div class="profile-preview">{@html detail.profile.slice(0, 120) + '...'}</div>
               </div>
 
               <div class="team-card-three__hover">
                 <h5 class="team-card-three__name">{detail.name}</h5>
                 <div class="team-card-three__designation">{detail.position}</div>
-                <a href="#/" on:click|preventDefault|stopPropagation={() => {currentDetail = detail; showModal = true}} class="team-card-three__social clearfix m-0 list-unstyled">Details</a>
+                <a href="#/" on:click|preventDefault|stopPropagation={() => {currentDetail = detail; showModal = true}} class="team-card-three__social clearfix m-0 list-unstyled">Read Profile</a>
               </div>
 
             </div>
@@ -89,16 +90,40 @@
       border-bottom-left-radius: 8px;
       border-bottom-right-radius: 8px;
       padding-top: 25px;
-      padding-bottom: 25px;
       background-color: #fff;
       transition: opacity 500ms ease, visibility 500ms ease, transform 500ms ease;
     }
 
     &__content {
       opacity: 1;
+      padding-bottom: 10px;
       visibility: visible;
       transform: scale(1, 1);
       transform-origin: bottom center;
+
+      .profile-preview{
+        position: relative;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        padding: 0 15px;
+
+        :global(p){
+          line-height: 1;
+          margin: 15px 0 0;
+        }
+
+        &::after{
+          content: "";
+          display: block;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 98px;
+          background-image: linear-gradient(to top, white 7%, transparent 51%);
+        }
+      }
     }
 
     &:hover &__content {
@@ -111,6 +136,7 @@
       position: absolute;
       bottom: 0;
       left: 0;
+      padding-bottom: 30px;
       width: 100%;
       background-color: #fff;
       opacity: 0;

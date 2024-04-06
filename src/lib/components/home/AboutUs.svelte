@@ -83,7 +83,6 @@
   <div class="image-layer" style="background-image: url({bkgImage});"></div>
   <div class="auto-container">
     <div class="content-box">
-      <div class="icon-box"><span class="flaticon-app-development"></span></div>
       <h2>Success is not just a goal but a tangible destination. <span>Project Managers are World changers.</span></h2>
     </div>
   </div>
