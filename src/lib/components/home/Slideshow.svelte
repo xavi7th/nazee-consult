@@ -64,14 +64,9 @@
       <div class="auto-container">
         <div class="content-box">
           <div class="content">
-            <div class="inner">
-              <div class="sub-title">welcome to { PUBLIC_APP_NAME }</div>
-              <h1>
-                Project <br />
-                Management Masterclass
-              </h1>
+            <div class="inner pm-hub">
               <div class="link-box">
-                <a class="theme-btn btn-style-one" href="https://pmmasterclass.my.canva.site/" target="_blank" referrerpolicy="no-referrer">
+                <a class="theme-btn btn-style-one" href="https://pmhub.my.canva.site/" target="_blank" referrerpolicy="no-referrer">
                   <i class="btn-curve"></i>
                   <span class="btn-title">Grab a Seat</span>
                 </a>
@@ -94,6 +89,18 @@
 
       @media (max-width: 430px){
         font-size: 48px;
+      }
+    }
+
+    .pm-hub.inner{
+      position: absolute;
+      bottom: 75px;
+      left: 50%;
+
+      @media (max-width: 991px) {
+        bottom: 30px;
+        left: auto;
+        right: 0;
       }
     }
   }
