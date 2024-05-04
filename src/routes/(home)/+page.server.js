@@ -7,7 +7,7 @@ export async function load() {
   const team = [
     {
       name: 'Dr Osazee Victor',
-      position: 'GMD/CEO',
+      position: 'Advisory Board Member',
       img: '$lib/images/team/osazee-victor-head-of-institute-nazee.png',
       profile: `
         <p>Dr victor has a decade of teaching experience in educational technology and live classroom environments in Africa and United Kingdom </p>
@@ -17,8 +17,8 @@ export async function load() {
       `
     },
     {
-      name: 'Igbinovia-Omonua Naomi',
-      position: 'Vice-Chancellor Nazee consult ',
+      name: 'I.O. Naomi ',
+      position: 'Head of Programs',
       img: '$lib/images/team/igbinovia-omonua-naomi-vice-chancellor-nazee.jpg',
       profile: `
         <p>Omonua Naomi is a seasoned project management professional who is making strides in educational technology.</p>
@@ -29,7 +29,7 @@ export async function load() {
     },
     {
       name: 'Miracle Ndikom',
-      position: 'Head of Operations',
+      position: 'Community/Operations Exec.',
       img: '$lib/images/team/miracle-ndikom-head-of-operations-nazee.jpg',
       profile: `
         <p>Miracle Ndikom is a business manager and consultant, with a true passion for achieving success, She has passion for educational technology with   two Master's degrees in Public Health Biotechnology and Microbiology</p>
