@@ -1,5 +1,6 @@
 <script>
 	import svgIcons from '$lib/svgIcons';
+  import PriceTag from '$lib/components/PriceTag.svelte';
 </script>
 
 <section class="process-one" id="certification">
@@ -34,6 +35,8 @@
               <i class="btn-curve"></i>
               <span class="btn-title">Book Now</span>
             </a>
+
+            <PriceTag price='$100' />
           </div>
         </div>
       </div>
@@ -66,6 +69,8 @@
               <i class="btn-curve"></i>
               <span class="btn-title">Buy Templates</span>
             </a>
+
+            <PriceTag price='$10' />
           </div>
         </div>
       </div>
