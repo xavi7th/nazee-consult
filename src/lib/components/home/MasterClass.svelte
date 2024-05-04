@@ -50,10 +50,10 @@
 				</div>
 			</div>
       <div class="fz-32 mb-54">
-        Master project management foundations by joining our masterclass and gain access to our PM hub community
+        Master project management foundations by joining our PM hub community and gain access to our masterclass
       </div>
 			<div class="link-box">
-				<a class="theme-btn btn-style-one" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" href="https://pmmasterclass.my.canva.site/">
+				<a class="theme-btn btn-style-one" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" href="https://pmhub.my.canva.site/">
 					<i class="btn-curve"></i>
 					<span class="btn-title">Grab a Seat</span>
 				</a>
