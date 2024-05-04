@@ -1,6 +1,6 @@
 <script>
 	import svgIcons from '$lib/svgIcons';
-	import { PUBLIC_APP_PHONE } from '$env/static/public';
+  import PriceTag from '$lib/components/PriceTag.svelte';
 </script>
 
 <section class="about-section" id="advisory">
@@ -40,16 +40,7 @@
               <span class="btn-title">Book a Call Now</span>
             </a>
 
-            <div class="text-column">
-              <div class="text">
-                <div class="since">
-                  <span class="txt">
-                    $25 / <br />
-                    30 mins
-                  </span>
-                </div>
-              </div>
-            </div>
+            <PriceTag price = '$30' duration='30 mins'/>
           </div>
         </div>
       </div>
@@ -74,87 +65,6 @@
 
         :global(svg){
           margin-right: 10px;
-        }
-      }
-
-      .since{
-        float: none;
-        margin-top: 0 !important;
-
-        &::before{
-          position: absolute;
-          right: 13px;
-          left: auto;
-          top: -26px;
-        }
-
-        &::after{
-          right: 100px;
-          top: -32px;
-          left: auto;
-          height: 110px;
-        }
-
-        .txt{
-          position: absolute;
-          right: 0;
-          top: -22px;
-          font-family: var(--thm-b-font);
-
-        }
-
-        @media (max-width: 575px) {
-          &::before{
-            top: -25px;
-            right: 13px;
-          }
-
-          &::after{
-            top: -25px;
-            right: 100px;
-          }
-
-          .txt{
-            top: -20px;
-            right: 0;
-          }
-        }
-
-        @media (max-width: 435px) {
-          &::before{
-            top: -15px;
-            right: 15px;
-          }
-
-          &::after{
-            top: -25px;
-            right: 100px;
-          }
-
-          .txt{
-            top: -15px;
-            right: 0;
-          }
-        }
-
-        @media (max-width: 435px) and (-webkit-min-device-pixel-ratio: 2){
-          .ios & {
-
-            &::before{
-              right: 13px;
-              top: -18px;
-            }
-
-            &::after{
-              right: 100px;
-              top: -25px;
-            }
-
-            .txt{
-              right: 0;
-              top: -15px;
-            }
-          }
         }
       }
     }
