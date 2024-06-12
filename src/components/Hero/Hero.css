@@ -1,0 +1,204 @@
+/* Hero.css */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.hero-section {
+  position: relative;
+  background-color: #f5f5f5;
+  background-image: url("path/to/background-pattern.png");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  text-align: center;
+  overflow: hidden;
+  padding: 2rem 1rem;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.stroke-text {
+  color: #333;
+  -webkit-text-stroke: 1px #333;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-text {
+  /* font-family: "Pacifico", cursive; */
+  font-size: 3rem;
+  background: linear-gradient(110deg, #FF610F 33%, rgba(0, 0, 0, 0) 33%),
+    linear-gradient(110deg, #FF610F 34%, #7F00FF 34%);
+  background-size: 400% 400%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: Gradient 15s ease infinite;
+}
+
+
+@keyframes Gradient {
+  0% {
+    background-position: 30% 50%;
+  }
+  50% {
+    background-position: 25% 50%;
+  }
+  100% {
+    background-position: 30% 50%;
+  }
+}
+
+/* Rest of the CSS remains the same */
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+  opacity: 0.9;
+}
+
+.hero-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.cta-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #4e17a8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: -1;
+}
+
+.cta-button:hover::before {
+  transform: translateX(0);
+}
+
+.cta-button:hover {
+  background-color: #3c1286;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.arrow-icon {
+  transition: transform 0.3s ease;
+}
+
+.cta-button:hover .arrow-icon {
+  transform: translateX(5px);
+}
+
+.learn-more {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.learn-more::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #7F00FF;
+  transition: width 0.3s ease;
+}
+
+.learn-more:hover::before {
+  width: 100%;
+}
+
+.learn-more:hover {
+  color: #ff610f;
+}
+
+.scroll-indicator {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%) rotate(90deg);
+  color: #333;
+  animation: bounce 2s infinite;
+  opacity: 0.7;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateX(-50%) rotate(90deg) translateY(0);
+  }
+  40% {
+    transform: translateX(-50%) rotate(90deg) translateY(-20px);
+  }
+  60% {
+    transform: translateX(-50%) rotate(90deg) translateY(-10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+
+  .hero-cta {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+}

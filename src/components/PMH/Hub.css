@@ -1,0 +1,118 @@
+/* Hub.css */
+
+/* Mobile-first styles */
+.hub-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+}
+
+.hub-image-container {
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.hub-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.hub-content {
+  padding: 1.5rem;
+}
+
+.hub-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.title-dot {
+  color: #ff610f;
+}
+
+.hub-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.hub-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.hub-features li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+.highlight {
+  color: #ff610f;
+  font-weight: bold;
+}
+
+.hub-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #4e17a8;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+  text-align: center;
+  font-family: 'Inter';
+  font-weight: 600;
+}
+
+.hub-button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for larger screens */
+@media (min-width: 768px) {
+  .hub-container {
+    flex-direction: row;
+    align-items: stretch;
+    margin: 2rem auto;
+    max-width: 1200px;
+  }
+
+  .hub-image-container {
+    flex: 1;
+    border-radius: 10px 0 0 10px;
+    margin: 20px 0 20px 20px;
+  }
+
+  .hub-image {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .hub-content {
+    flex: 1;
+    padding: 2rem;
+  }
+
+  .hub-title {
+    font-size: 2rem;
+  }
+
+  .hub-button {
+    width: auto;
+  }
+}

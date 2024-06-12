@@ -1,0 +1,142 @@
+.book-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+  padding: 2rem;
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
+}
+
+.book-info__heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.book-info__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 1200px;
+  padding: 2rem;
+}
+
+.book-info__card {
+  margin-right: 2rem;
+}
+
+.book-info__image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-info__description {
+  padding: 2rem;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.book-info__text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.book-info__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #333333;
+  text-align: center;
+}
+
+.book-info__tagline {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.book-info__button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.book-info__button {
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.book-info__button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cc {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .book-info__heading {
+    font-size: 1.5rem;
+  }
+
+  .book-info__title {
+    font-size: 1.2rem;
+  }
+
+  .book-info__content {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .book-info__card {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .book-info__description {
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .book-info__text {
+    font-size: 0.9rem;
+  }
+
+  .book-info__tagline {
+    font-size: 0.9rem;
+  }
+
+  .book-info__button-container {
+    width: 100%;
+  }
+
+  .book-info__button {
+    width: 100%;
+  }
+
+  .book-info__image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .cc {
+    max-width: 300px;
+  }
+}
